@@ -46,6 +46,10 @@ view here:
 
 ### [View all wireframes here](wireframes/meditation-wireframes.pdf)
 
+### Fonts
+
+- **Pacifico** as the headline text and **Roboto** as body text. I went for very simple and easy to read fonts.
+
 ### Colours Mood board and Mockups
 
 - Pastel, soft colours, relaxing imagery.
