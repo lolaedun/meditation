@@ -24,13 +24,13 @@ This is a meditation/affirmation site designed for Children.
 * As a user, I would like to be able to switch from child mode to adult mode.
 * As a user, I would ike to be able to cycle through different affirmations and sounds.
 * As a user, I would like to be able to switch off sound but keep timer going.
-* As a user, I would like to be share my meditation or affirmation with a friend
+* As a user, I would like to be share my meditation or affirmation with a friend.
 
 
 ### **Site owners Goals**
-* To build a simple API for child affirmations
-* To call in API for adult affirmations
-* To create different user modes
+* To build a simple API for child affirmations.
+* To call in API for adult affirmations.
+* To create different user modes.
 * To collate different background sounds for meditation.
 * To collate different background images to sync with meditations.
 * To Animate breathing object during meditation.
@@ -45,5 +45,12 @@ view here:
 
 
 ### [View all wireframes here](wireframes/meditation-wireframes.pdf)
+
+### Colours Mood board and Mockups
+
+- Pastel, soft colours, relaxing imagery.
+
+![Mood board](wireframes/Meditation-mood-board.png)
+
 
 
