@@ -6,6 +6,29 @@ This is a meditation/affirmation site designed for Children.
 
 ## I am...
 
+## **UX**
+
+### **User Goals**
+
+* The website has to work well on all kind of devices like mobile phones, tables and desktops.
+* The website has to be fun and interactive.
+* Visually appealing website.
+* Website should be easily tailored to the individual adult/child.
+* Meditation/Affirmation should be shareable.
+
+
+
+### **User Stories**
+
+* As a user, I would like to choose timing of meditation/affirmation.
+* As a user, I would like to be able to switch from child mode to adult mode.
+* As a user, I would ike to be able to cycle through different affirmations and sounds.
+* As a user, I would like to be able to switch off sound but keep timer going.
+* As a user, I would like to be share my meditation or affirmation with a friend
+
+
+
+
 ## Wireframes
 
 These wireframes were created using [Balsamiq](https://balsamiq.com/) during the Scope Plane 
