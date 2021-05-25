@@ -27,6 +27,13 @@ This is a meditation/affirmation site designed for Children.
 * As a user, I would like to be share my meditation or affirmation with a friend
 
 
+### **Site owners Goals**
+* To build a simple API for child affirmations
+* To call in API for adult affirmations
+* To create different user modes
+* To collate different background sounds for meditation.
+* To collate different background images to sync with meditations.
+* To Animate breathing object during meditation.
 
 
 ## Wireframes

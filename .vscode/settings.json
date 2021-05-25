@@ -20,6 +20,6 @@
       "**/CVS": true
    },
   
-   "workbench.colorTheme": "Visual Studio Dark"
+   "workbench.colorTheme": "dark"
    
 }
