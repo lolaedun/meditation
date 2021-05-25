@@ -50,6 +50,10 @@ view here:
 
 - **Pacifico** as the headline text and **Roboto** as body text. I went for very simple and easy to read fonts.
 
+### Icons
+
+media player buttons, toggle switches, button icons, speaker icons.
+
 ### Colours Mood board and Mockups
 
 - Pastel, soft colours, relaxing imagery.
