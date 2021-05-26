@@ -60,5 +60,19 @@ media player buttons, toggle switches, button icons, speaker icons.
 
 ![Mood board](wireframes/Meditation-mood-board.png)
 
+# Features
+
+### Features Left to Implement
+
+- child mode
+- Timing options
+- affirmations
+- Media buttons
+- Volume Control
+- Images 
+- Background sounds/music
+- Breathing Animation
+- Social share button
+
 
 
