@@ -82,5 +82,12 @@ media player buttons, toggle switches, button icons, speaker icons.
 - [Balsamiq](https://balsamiq.com/) to create the wireframes for this project.
 - [Canva](https://www.canva.com/) to create graphics and images.
 
+### Libraries
+
+- [Bootstrap](https://www.bootstrapcdn.com/) to simplify the structure of the website and make the website responsive easily.
+- [FontAwesome](https://www.bootstrapcdn.com/fontawesome/) to provide icons for the website.
+- [Google Fonts](https://fonts.google.com/) to style the website fonts.
+- [Canva](https://www.canva.com/) to design elements for the website.
+
 
 
