@@ -74,5 +74,13 @@ media player buttons, toggle switches, button icons, speaker icons.
 - Breathing Animation
 - Social share button
 
+## Technologies Used
+
+- [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) to handle version control.
+- [GitHub](https://github.com/) to store and share all project code remotely.
+- [Imgbb](https://imgbb.com) to store external images for this project that were not entered into the database.
+- [Balsamiq](https://balsamiq.com/) to create the wireframes for this project.
+- [Canva](https://www.canva.com/) to create graphics and images.
+
 
 
