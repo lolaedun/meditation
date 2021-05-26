@@ -89,5 +89,8 @@ media player buttons, toggle switches, button icons, speaker icons.
 - [Google Fonts](https://fonts.google.com/) to style the website fonts.
 - [Canva](https://www.canva.com/) to design elements for the website.
 
+### Languages
+- This project uses HTML, CSS and JavaScript programming languages.
+
 
 
