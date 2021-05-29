@@ -66,10 +66,11 @@ media player buttons, toggle switches, button icons, speaker icons.
 
 - child mode
 - Timing options
+- Timer Countdown
 - affirmations
-- Media buttons
+- Media player
 - Volume Control
-- Images 
+- Background Images/Videos 
 - Background sounds/music
 - Breathing Animation
 - Social share button
