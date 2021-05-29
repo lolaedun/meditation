@@ -93,5 +93,18 @@ media player buttons, toggle switches, button icons, speaker icons.
 ### Languages
 - This project uses HTML, CSS and JavaScript programming languages.
 
+## Credits
 
+### Content - Media - Inspiration
+
+I have used the following websites to gather ideas, information, background images and sounds for the overall content of my website: 
+
+* [Ben Sound](www.bensound.com)
+
+
+
+ 
+
+I have used [Canva](https://www.canva.com/) to create all my images and graphics.
+I also used [ColourLovers](https://www.colourlovers.com/palettes) to find inspiration for my colour palette.
 
