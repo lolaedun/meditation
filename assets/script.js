@@ -34,5 +34,6 @@ loadSound(sound[soundIndex])
 function loadSound(sound) {
 
     audio.src = `sounds/${sound}.mp3`
+    bg-Image.src = `bg-media/${sound}.png`
 }
 
