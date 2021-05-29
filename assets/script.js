@@ -14,3 +14,25 @@ let sounds = document.querySelector(".sounds");
 play-btn.addEventListener("click", function(){
      sounds.play();
     });
+
+
+//Sound Titles
+
+
+let sound = ['bensound-relaxing', 'Healing-Water-David-Renda', 'rain-solace']
+
+//keep track of sounds
+
+let soundIndex = 2
+
+//Load sounds to the DOM
+
+loadSound(sound[soundIndex])
+
+//update sound info
+
+function loadSound(sound) {
+
+    audio.src = `sounds/${sound}.mp3`
+}
+
