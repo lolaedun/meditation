@@ -12,21 +12,31 @@ body {
 }
 
 .time-selector {
-    position: relative;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    top: 70%;
-    
+    position: absolute;
+    /* display: flex; */
+    /* align-items: center; */
+    /* align-content: space-between; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* bottom: 90%; */
+    top: 49%;
+    left: 40%;   
   
 }
 
-.media-player {
 
+.media-player {
     position: relative;
-    align-items: center;
     display: flex;
     flex-direction: row;
-    margin-top: 20%;
+    font-size: 40px;
+    justify-content: space-evenly;
+    top: 169px;
+}
+
+.timer-countdown {
+    position: absolute;
+    font-size: 50px;
+    top: 120%;
+
 }
