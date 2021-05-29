@@ -101,6 +101,7 @@ I have used the following websites to gather ideas, information, background imag
 
 * [Ben Sound](www.bensound.com)
 * [Dev Ed](https://www.youtube.com/watch?v=oMBXdZzYqEk&ab_channel=DevEdDevEd)
+* [Traversy Media](https://www.youtube.com/watch?v=QTHRWGn_sJw&ab_channel=TraversyMediaTraversyMediaVerified)
 
 
 
