@@ -7,16 +7,13 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/style.css">
 <title>I am...Meditation & Affirmations</title>
 </head>
 <body>
     <div class="container">
-        <div class="time-selector">
-            <button type="button" class="btn btn-outline-info">2 Mins</button>
-            <button type="button" class="btn btn-outline-info">5 Mins</button>
-            <button type="button" class="btn btn-outline-info">10 Mins</button>
-        </div>
+        
+        
         
         <div class="media-player">
             <audio class="sounds">
@@ -26,14 +23,14 @@
                 <i class="fas fa-step-backward"></i>
             </button>
 
-            <button class="play-btn">
+            <button class="play-btn" data-sound="assets/sounds/bensound-relaxing.mp3" data-media="assets/bg-media/bg-1.png">
                 <i class="fas fa-play"></i>
             </button>
 
             <button class="pause-btn">
                 <i class="fas fa-pause"></i>
             </button>
-            
+
             <button class="forward-btn">
                 <i class="fas fa-step-forward"></i>
             </button>
@@ -43,6 +40,12 @@
             <h3 class="timer-countdown">0:00</h3>
         </div>
 
+        <div class="time-selector">
+            <button type="button" class="btn btn-outline-info">2 Mins</button>
+            <button type="button" class="btn btn-outline-info">5 Mins</button>
+            <button type="button" class="btn btn-outline-info">10 Mins</button>
+        </div>
+
         
         <div class="affirmations"></div>
         <div class="volume-control"></div>
@@ -50,6 +53,7 @@
         <div class="breathing-animation"></div>
         <div class="social-share"></div>
     </div>
+    
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
