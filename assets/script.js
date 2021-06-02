@@ -13,11 +13,44 @@ let sounds = document.querySelector(".sounds");
 
 let bgImage = document.querySelector("#bg-img");
 
-//Play sound
+//Play Music
 
 play.addEventListener("click", function() {
   music.play();
 });
+
+//update Music info
+
+function loadMusic(music) {
+
+    audio.src = `sounds/${music}.mp3`
+    bgImage.src = `bg-media/${music}.png`
+}
+
+function playSong() {
+
+    mediaPlayer.classList.add('play')
+    play.querySelector('i.fas').classList.remove('fa-play')
+    play.querySelector('i.fas').classList.add('fa-pause')
+}
+
+function pauseSong() {
+
+}
+
+//Event Listeners
+
+play.addEventListener("click", () => {
+    
+    let nowPlaying = mediaPlayer.classList.contains('play')
+    
+    if (nowPlaying) {
+        pauseSong()
+    } else {
+        playSong()
+    }
+    
+    });
 
 /*
 //Meditation Duration
@@ -37,37 +70,5 @@ let soundIndex = 2
 
 loadSound(sound[soundIndex])
 
-//update sound info
-
-function loadSound(sound) {
-
-    audio.src = `sounds/${sound}.mp3`
-    bgImage.src = `bg-media/${sound}.png`
-}
-
-function playSong() {
-
-    mediaPlayer.classList.add('play-btn')
-    playBtn.querySelector('i.fas').classList.remove('fa-play')
-    playBtn.querySelector('i.fas').classList.add('fa-pause')
-}
-
-function pauseSong() {
-
-}
-
-//Event Listeners
-
-playBtn.addEventListener("click", () => {
-    
-    let nowPlaying = mediaPlayer.classList.contains('play-btn')
-    
-    if (nowPlaying) {
-        pauseSong()
-    } else {
-        playSong()
-    }
-    
-    });
 
 */
