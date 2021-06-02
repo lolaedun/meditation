@@ -3,6 +3,9 @@ let playBtn = document.getElementsByClassName('play-btn');
 let backBtn = document.getElementsByClassName('back-btn');
 let forwardBtn = document.getElementsByClassName('forward-btn');
 
+let audio = document.querySelector("#audio");
+let countdown = document.getElementsByClassName('.timer-countdown');
+let timeSelector = document.getElementsByClassName('.time-selector'); 
 let sounds = document.querySelector(".sounds");
 
 
