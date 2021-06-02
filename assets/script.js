@@ -4,19 +4,16 @@ let backBtn = document.getElementsByClassName('back-btn');
 let forwardBtn = document.getElementsByClassName('forward-btn');
 
 let audio = document.querySelector("#audio");
+
 let countdown = document.getElementsByClassName('.timer-countdown');
 let timeSelector = document.getElementsByClassName('.time-selector'); 
+
 let sounds = document.querySelector(".sounds");
 
+let bgImage = document.querySelector("#bg-img");
 
+//Meditation Duration
 
-
-
-//play sounds
-
-play-btn.addEventListener("click", function(){
-     sounds.play();
-    });
 
 
 //Sound Titles
@@ -37,6 +34,30 @@ loadSound(sound[soundIndex])
 function loadSound(sound) {
 
     audio.src = `sounds/${sound}.mp3`
-    bg-Image.src = `bg-media/${sound}.png`
+    bgImage.src = `bg-media/${sound}.png`
 }
 
+function playSong() {
+
+    mediaPlayer.classList.add('play-btn')
+    playBtn.querySelector('i.fas').classList.remove('fa-play')
+    playBtn.querySelector('i.fas').classList.add('fa-pause')
+}
+
+function pauseSong() {
+
+}
+
+//Event Listeners
+
+playBtn.addEventListener("click", function(){
+    
+    let nowPlaying = mediaPlayer.classList.contains('play-btn')
+    
+    if nowPlaying {
+        pauseSong()
+    } else {
+        playSong()
+    }
+    
+    });
