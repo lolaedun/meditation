@@ -13,9 +13,13 @@ let sounds = document.querySelector(".sounds");
 
 let bgImage = document.querySelector("#bg-img");
 
+//Play sound
 
+play.addEventListener("click", function() {
+  music.play();
+});
 
-
+/*
 //Meditation Duration
 
 let defaultDuration = 600;
@@ -65,3 +69,5 @@ playBtn.addEventListener("click", () => {
     }
     
     });
+
+*/
