@@ -1,7 +1,8 @@
 let mediaPlayer = document.querySelector(".media-player");
-let playBtn = document.getElementsByClassName('play-btn');
-let backBtn = document.getElementsByClassName('back-btn');
-let forwardBtn = document.getElementsByClassName('forward-btn');
+let music = document.querySelector(".music");
+let play = document.querySelector(".play");
+let back = document.querySelector(".back");
+let forward = document.querySelector(".forward");
 
 let audio = document.querySelector("#audio");
 
@@ -12,9 +13,12 @@ let sounds = document.querySelector(".sounds");
 
 let bgImage = document.querySelector("#bg-img");
 
+
+
+
 //Meditation Duration
 
-
+let defaultDuration = 600;
 
 //Sound Titles
 
@@ -50,11 +54,11 @@ function pauseSong() {
 
 //Event Listeners
 
-playBtn.addEventListener("click", function(){
+playBtn.addEventListener("click", () => {
     
     let nowPlaying = mediaPlayer.classList.contains('play-btn')
     
-    if nowPlaying {
+    if (nowPlaying) {
         pauseSong()
     } else {
         playSong()
