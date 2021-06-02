@@ -4,27 +4,33 @@ button{
 }
 .time-selector {
     position: absolute;
-    top: 49%;
-    left: 40%;   
+    top: 60%;
+    left: 40%;
+    align-items: center;
+    justify-content: center;
+     
   
 }
 
 
 .media-player {
-    position: relative;
+    
+    
+    height: 100vh;
     display: flex;
     flex-direction: row;
     font-size: 40px;
+    align-items: center;
     justify-content: space-evenly;
-    top: 169px;
     
 }
 
 .timer-countdown {
     position: absolute;
     font-size: 50px;
-    top: 120%;
-
+    top: 70%;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 #bg-img { 
