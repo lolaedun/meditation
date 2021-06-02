@@ -13,11 +13,7 @@ let sounds = document.querySelector(".sounds");
 
 let bgImage = document.querySelector("#bg-img");
 
-//Play Music
 
-play.addEventListener("click", function() {
-  music.play();
-});
 
 //update Music info
 
@@ -27,27 +23,46 @@ function loadMusic(music) {
     bgImage.src = `bg-media/${music}.png`
 }
 
+//Play song
 function playSong() {
 
     mediaPlayer.classList.add('play')
     play.querySelector('i.fas').classList.remove('fa-play')
     play.querySelector('i.fas').classList.add('fa-pause')
+
+    audio.play();
 }
 
+//Pause song
 function pauseSong() {
+    mediaPlayer.classList.remove('play')
+    play.querySelector('i.fas').classList.add('fa-play')
+    play.querySelector('i.fas').classList.remove('fa-pause')
+
+    audio.pause();
 
 }
 
 //Event Listeners
 
-play.addEventListener("click", () => {
+//Play Music
+
+
+
+play.addEventListener("click", function() {
     
     let nowPlaying = mediaPlayer.classList.contains('play')
     
+    
+    
+
+    
     if (nowPlaying) {
-        pauseSong()
+        pauseSong();
+        bgImage.play();
     } else {
         playSong()
+        bgImage.pause();
     }
     
     });
