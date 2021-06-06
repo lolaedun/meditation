@@ -6,11 +6,12 @@ let forward = document.querySelector(".forward");
 
 let audio = document.querySelector("#audio");
 
+//Timer
 let countdown = document.getElementsByClassName('.timer-countdown');
-let timeSelector = document.getElementsByClassName('.time-selector'); 
+let timeSelector = document.querySelector('.time-selector button'); 
 
 let sounds = document.querySelector(".sounds");
-
+//Background
 let bgImage = document.querySelector("#bg-img");
 
 
@@ -66,7 +67,7 @@ play.addEventListener("click", function() {
     }
     
     });
-    
+
  // Animate the Countdown Timer
 music.ontimeupdate = function () {
 let currentTime = music.currentTime;
@@ -76,6 +77,16 @@ let minutes = Math.floor (elapsed /60);
 
 countdown.textContent = `${minutes}:${seconds}`;
 };
+
+// select time duration for meditation
+
+timeSelector.forEach(option); {
+    option.addEventListener("click", function() {
+    defaultDuration = this.getAttribute("data-time");
+    countdown.textContent = `${Math.floor(defaultDuration /60)};${Math.floor(defaultDuration % 60
+        )}`;
+    });
+}
 
 
 /*
