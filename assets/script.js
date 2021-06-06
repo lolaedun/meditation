@@ -43,6 +43,10 @@ function pauseSong() {
 
 }
 
+//Meditation Duration
+
+let defaultDuration = 600;
+
 //Event Listeners
 
 //Play Music
@@ -53,24 +57,29 @@ play.addEventListener("click", function() {
     
     let nowPlaying = mediaPlayer.classList.contains('play')
     
-    
-    
-
-    
     if (nowPlaying) {
         pauseSong();
         bgImage.play();
     } else {
-        playSong()
+        playSong();
         bgImage.pause();
     }
     
     });
+    
+ // Animate the Countdown Timer
+music.ontimeupdate = function () {
+let currentTime = music.currentTime;
+let elapsed = defaultDuration - currentTime;
+let seconds = Math.floor (elapsedT % 60);
+let minutes = Math.floor (elapsed /60);
+
+countdown.textContent = `${minutes}:${seconds}`;
+};
+
 
 /*
-//Meditation Duration
 
-let defaultDuration = 600;
 
 //Sound Titles
 
