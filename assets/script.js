@@ -66,9 +66,14 @@ play.addEventListener("click", function() {
         bgImage.pause();
     }
     
-    });
+});
 
- // Animate the Countdown Timer
+//Change Meditation sounds
+
+back.addEventListener("click", PrevSound);
+forward.addEventListener("click", NextSound)
+
+// Animate the Countdown Timer
 music.ontimeupdate = function () {
 let currentTime = music.currentTime;
 let elapsed = defaultDuration - currentTime;
