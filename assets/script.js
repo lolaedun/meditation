@@ -3,6 +3,7 @@ let music = document.querySelector(".music");
 let play = document.querySelector(".play");
 let back = document.querySelector(".back");
 let forward = document.querySelector(".forward");
+let title = document.querySelector("#title");
 
 let audio = document.querySelector("#audio");
 
@@ -14,17 +15,33 @@ let sounds = document.querySelector(".sounds");
 //Background
 let bgImage = document.querySelector("#bg-img");
 
+//keep track of sounds
+
+let songIndex = 2;
+
+
+//Sound Titles
+
+
+let songs = ['bensound-relaxing', 'Healing-Water-David-Renda', 'rain-solace'];
+
+/*
+//Load music details to the DOM
+
+loadSong(songs[songIndex]);
+
+*/
 
 
 //update Music info
 
-function loadMusic(music) {
-
-    audio.src = `sounds/${music}.mp3`
-    bgImage.src = `bg-media/${music}.png`
+function loadSong(song) {
+    //title.innerHTML= song
+    audio.src = `sounds/${song}.mp3`
+    bgImage.src = `bg-media/${song}.png`
 }
 
-//Play song
+//Play music
 function playSong() {
 
     mediaPlayer.classList.add('play')
@@ -34,13 +51,37 @@ function playSong() {
     audio.play();
 }
 
-//Pause song
+//Pause music
 function pauseSong() {
     mediaPlayer.classList.remove('play')
     play.querySelector('i.fas').classList.add('fa-play')
     play.querySelector('i.fas').classList.remove('fa-pause')
 
     audio.pause();
+
+}
+
+//Prev music
+
+function PrevSound() {
+    songIndex--;
+
+    if (songIndex < 0) {
+        songIndex = songs.length - 1;
+    }
+
+    loadSong(songs[songIndex]);
+    playSong();
+}
+
+
+
+
+
+
+// Next music
+
+function NextSound() {
 
 }
 
@@ -71,13 +112,13 @@ play.addEventListener("click", function() {
 //Change Meditation sounds
 
 back.addEventListener("click", PrevSound);
-forward.addEventListener("click", NextSound)
+forward.addEventListener("click", NextSound);
 
 // Animate the Countdown Timer
 music.ontimeupdate = function () {
 let currentTime = music.currentTime;
 let elapsed = defaultDuration - currentTime;
-let seconds = Math.floor (elapsedT % 60);
+let seconds = Math.floor (elapsed % 60);
 let minutes = Math.floor (elapsed /60);
 
 countdown.textContent = `${minutes}:${seconds}`;
@@ -85,7 +126,7 @@ countdown.textContent = `${minutes}:${seconds}`;
 
 // select time duration for meditation
 
-timeSelector.forEach(option); {
+timeSelector.forEach();{
     option.addEventListener("click", function() {
     defaultDuration = this.getAttribute("data-time");
     countdown.textContent = `${Math.floor(defaultDuration /60)};${Math.floor(defaultDuration % 60
@@ -94,21 +135,3 @@ timeSelector.forEach(option); {
 }
 
 
-/*
-
-
-//Sound Titles
-
-
-let sound = ['bensound-relaxing', 'Healing-Water-David-Renda', 'rain-solace']
-
-//keep track of sounds
-
-let soundIndex = 2
-
-//Load sounds to the DOM
-
-loadSound(sound[soundIndex])
-
-
-*/
