@@ -1,5 +1,5 @@
 let mediaPlayer = document.querySelector(".media-player");
-let music = document.querySelector(".music");
+let song = document.querySelector(".song");
 let play = document.querySelector(".play");
 let back = document.querySelector(".back");
 let forward = document.querySelector(".forward");
@@ -25,19 +25,24 @@ let songIndex = 2;
 
 let songs = ['bensound-relaxing', 'Healing-Water-David-Renda', 'rain-solace'];
 
-/*
+// Background Cover Images
+
+let poster = ['4.png', '5.png', 'bg-1.png'];
+
+
 //Load music details to the DOM
 
 loadSong(songs[songIndex]);
 
-*/
+
 
 
 //update Music info
 
 function loadSong(song) {
     //title.innerHTML= song
-    audio.src = `sounds/${song}.mp3`
+    audio.src = `assets/sounds/${song}.mp3`
+    $(bgImage).attr("src", poster[songIndex]);
     bgImage.src = `bg-media/${song}.png`
 }
 
@@ -123,6 +128,25 @@ let minutes = Math.floor (elapsed /60);
 
 countdown.textContent = `${minutes}:${seconds}`;
 };
+
+/*
+song.ontimeupdate = function() {
+  let currentTime = song.currentTime;
+  let elapsed = fakeDuration - currentTime;
+  let seconds = Math.floor(elapsed % 60);
+  let minutes = Math.floor(elapsed / 60);
+  timeDisplay.textContent = `${minutes}:${seconds}`;
+  let progress = outlineLength - (currentTime / fakeDuration) * outlineLength;
+  outline.style.strokeDashoffset = progress;
+
+  if (currentTime >= fakeDuration) {
+    song.pause();
+    song.currentTime = 0;
+    play.src = "./svg/play.svg";
+    video.pause();
+  }
+};
+*/
 
 // select time duration for meditation
 
