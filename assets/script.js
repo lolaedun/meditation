@@ -120,40 +120,30 @@ back.addEventListener("click", PrevSound);
 forward.addEventListener("click", NextSound);
 
 // Animate the Countdown Timer
-music.ontimeupdate = function () {
-let currentTime = music.currentTime;
+song.ontimeupdate = function () {
+let currentTime = song.currentTime;
 let elapsed = defaultDuration - currentTime;
 let seconds = Math.floor (elapsed % 60);
-let minutes = Math.floor (elapsed /60);
+let minutes = Math.floor (elapsed / 60);
 
 countdown.textContent = `${minutes}:${seconds}`;
 };
 
-/*
-song.ontimeupdate = function() {
-  let currentTime = song.currentTime;
-  let elapsed = fakeDuration - currentTime;
-  let seconds = Math.floor(elapsed % 60);
-  let minutes = Math.floor(elapsed / 60);
-  timeDisplay.textContent = `${minutes}:${seconds}`;
-  let progress = outlineLength - (currentTime / fakeDuration) * outlineLength;
-  outline.style.strokeDashoffset = progress;
-
-  if (currentTime >= fakeDuration) {
+if (currentTime >= defaultDuration) {
     song.pause();
     song.currentTime = 0;
-    play.src = "./svg/play.svg";
-    video.pause();
+    //play.src = "./svg/play.svg";
+    //video.pause();
   }
 };
-*/
+
 
 // select time duration for meditation
 
-timeSelector.forEach();{
+timeSelector.forEach(option => {
     option.addEventListener("click", function() {
     defaultDuration = this.getAttribute("data-time");
-    countdown.textContent = `${Math.floor(defaultDuration /60)};${Math.floor(defaultDuration % 60
+    countdown.textContent = `${Math.floor(defaultDuration / 60)}:${Math.floor(defaultDuration % 60
         )}`;
     });
 }
