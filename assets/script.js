@@ -43,7 +43,7 @@ function loadSong(song) {
     //title.innerText= song;
     audio.src = `assets/sounds/${song}.mp3`;
     $(bgImage).attr("src", poster[songIndex]);
-    bgImage.src = `bg-media/${song}.png`;
+    poster.src = `assets/bg-media/${song}.png`;
 }
 
 
@@ -108,10 +108,10 @@ play.addEventListener("click", function() {
     
     if (nowPlaying) {
         pauseSong();
-        bgImage.play();
+        //bgImage.play();
     } else {
         playSong();
-        bgImage.pause();
+        //bgImage.pause();
     }
     
 });
