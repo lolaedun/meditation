@@ -9,7 +9,7 @@ let audio = document.querySelector("#audio");
 
 //Timer
 let countdown = document.getElementsByClassName('.timer-countdown');
-let timeSelector = document.querySelector('.time-selector button'); 
+let timeSelector = document.querySelectorAll('.time-selector button'); 
 
 let sounds = document.querySelector(".sounds");
 //Background
@@ -23,7 +23,7 @@ let songIndex = 2;
 //Sound Titles
 
 
-let songs = ['bensound-relaxing', 'Healing-Water-David-Renda', 'rain-solace'];
+const songs = ['bensound-relaxing', 'Healing-Water-David-Renda', 'rain-solace'];
 
 // Background Cover Images
 
@@ -36,15 +36,16 @@ loadSong(songs[songIndex]);
 
 
 
-
 //update Music info
 
 function loadSong(song) {
-    //title.innerHTML= song
-    audio.src = `assets/sounds/${song}.mp3`
+    
+    //title.innerText= song;
+    audio.src = `assets/sounds/${song}.mp3`;
     $(bgImage).attr("src", poster[songIndex]);
-    bgImage.src = `bg-media/${song}.png`
+    bgImage.src = `bg-media/${song}.png`;
 }
+
 
 //Play music
 function playSong() {
@@ -69,6 +70,7 @@ function pauseSong() {
 //Prev music
 
 function PrevSound() {
+    
     songIndex--;
 
     if (songIndex < 0) {
@@ -134,7 +136,7 @@ if (currentTime >= defaultDuration) {
     song.currentTime = 0;
     //play.src = "./svg/play.svg";
     //video.pause();
-  }
+  
 };
 
 
@@ -146,6 +148,4 @@ timeSelector.forEach(option => {
     countdown.textContent = `${Math.floor(defaultDuration / 60)}:${Math.floor(defaultDuration % 60
         )}`;
     });
-}
-
-
+})
