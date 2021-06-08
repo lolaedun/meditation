@@ -111,6 +111,7 @@ play.addEventListener("click", function() {
     
     if (nowPlaying) {
         pauseSong();
+        
         //bgImage.play();
     } else {
         playSong();

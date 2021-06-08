@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap');
+
+
 body { 
   /* The image used */
   background-image: url(../assets/bg-media/bg-1.jpg);
@@ -9,6 +12,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -16,6 +21,10 @@ button{
     background-color: transparent;
     border: 0;
 }
+
+
+
+
 .time-selector {
     position: absolute;
     top: 60%;
@@ -49,10 +58,15 @@ button{
     justify-content: space-evenly;
 }
 
-.affirmation {
+#affirmation {
 
     position: absolute;
     top: 30%;
     left: 32%;
     align-items: center;
+}
+
+.affirmation {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
 }
