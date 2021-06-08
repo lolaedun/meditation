@@ -89,7 +89,14 @@ function PrevSound() {
 // Next music
 
 function NextSound() {
+    songIndex++;
 
+    if (songIndex > songs.length - 1) {
+        songIndex = 0
+    }
+
+    loadSong(songs[songIndex]);
+    playSong();
 }
 
 //Meditation Duration
@@ -98,7 +105,7 @@ let defaultDuration = 600;
 
 //Event Listeners
 
-//Play Music
+    // EL - Play Music
 
 
 
@@ -116,7 +123,7 @@ play.addEventListener("click", function() {
     
 });
 
-//Change Meditation sounds
+    //EL - Change Meditation Music
 
 back.addEventListener("click", PrevSound);
 forward.addEventListener("click", NextSound);
