@@ -42,8 +42,8 @@ function loadSong(song) {
     
     //title.innerText= song;
     audio.src = `assets/sounds/${song}.mp3`;
-    $(bgImage).attr("src", poster[songIndex]);
-    poster.src = `assets/bg-media/${song}.jpg`;
+    //$(bgImage).attr("src", bgImage[songIndex]);
+    //bgImage.src = `assets/bg-media/${song}.jpg`;
 }
 
 
@@ -82,10 +82,6 @@ function PrevSound() {
 }
 
 
-
-
-
-
 // Next music
 
 function NextSound() {
@@ -120,6 +116,24 @@ play.addEventListener("click", function() {
         playSong();
         //bgImage.pause();
     }
+
+    // Animate the Countdown Timer
+    song.ontimeupdate = function () {
+    
+    let currentTime = song.currentTime;
+    let elapsed = defaultDuration - currentTime;
+    let seconds = Math.floor (elapsed % 60);
+    let minutes = Math.floor (elapsed / 60);
+
+    countdown.textContent = `${minutes}:${seconds}`;
+    };
+
+    /*if (currentTime >= defaultDuration) {
+        song.pause();
+        song.currentTime = 0;
+        
+    };
+    */
     
 });
 
@@ -128,29 +142,13 @@ play.addEventListener("click", function() {
 back.addEventListener("click", PrevSound);
 forward.addEventListener("click", NextSound);
 
-// Animate the Countdown Timer
-song.ontimeupdate = function () {
-let currentTime = song.currentTime;
-let elapsed = defaultDuration - currentTime;
-let seconds = Math.floor (elapsed % 60);
-let minutes = Math.floor (elapsed / 60);
 
-countdown.textContent = `${minutes}:${seconds}`;
-};
-
-if (currentTime >= defaultDuration) {
-    song.pause();
-    song.currentTime = 0;
-    //play.src = "./svg/play.svg";
-    //video.pause();
-  
-};
 
 
 // select time duration for meditation
 
 timeSelector.forEach(option => {
-    option.addEventListener("click", function() {
+    option.addEventListener("click", function() { //event listener for time selector buttons
     defaultDuration = this.getAttribute("data-time");
     countdown.textContent = `${Math.floor(defaultDuration / 60)}:${Math.floor(defaultDuration % 60
         )}`;
