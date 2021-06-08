@@ -27,7 +27,7 @@ const songs = ['bensound-relaxing', 'Healing-Water-David-Renda', 'rain-solace'];
 
 // Background Cover Images
 
-let poster = ['4.png', '5.png', 'bg-1.png'];
+let poster = ['4.jpg', '5.jpg', 'bg-1.jpg'];
 
 
 //Load music details to the DOM
@@ -43,7 +43,7 @@ function loadSong(song) {
     //title.innerText= song;
     audio.src = `assets/sounds/${song}.mp3`;
     $(bgImage).attr("src", poster[songIndex]);
-    poster.src = `assets/bg-media/${song}.png`;
+    poster.src = `assets/bg-media/${song}.jpg`;
 }
 
 
