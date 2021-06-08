@@ -49,3 +49,10 @@ button{
     justify-content: space-evenly;
 }
 
+.affirmation {
+
+    position: absolute;
+    top: 30%;
+    left: 32%;
+    align-items: center;
+}
