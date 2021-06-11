@@ -126,10 +126,11 @@ play.addEventListener("click", function() {
     
     if (nowPlaying) {
         pauseSong();
-        
+        bgImageRef.pause();
         //bgImage.play();
     } else {
         playSong();
+        bgImageRef.play();
         //bgImage.pause();
     }
 
@@ -148,6 +149,7 @@ play.addEventListener("click", function() {
         songRef.currentTime = 0;
         play.querySelector('i.fas').classList.add('fa-play')
         play.querySelector('i.fas').classList.remove('fa-pause')
+        bgImageRef.pause();
         
     };
     };
