@@ -97,7 +97,7 @@ function PrevSound() {
     play.querySelector('i.fas').classList.remove('fa-pause');
     play.querySelector('i.fas').classList.add('fa-play');
     bgImageRef.pause();
-    //playSong();
+    
 }
 
 
@@ -114,7 +114,7 @@ function NextSound() {
     play.querySelector('i.fas').classList.remove('fa-pause');
     play.querySelector('i.fas').classList.add('fa-play');
     bgImageRef.pause();
-    //playSong();
+    
 }
 
 //Meditation Duration
