@@ -24,13 +24,13 @@ const songs = [
 
     {
         tune: 'bensound-relaxing',
-        backgroundImageName: 'meditation-video1',
+        backgroundImageName: '5',
         affirmation: 'MY NEEDS ARE IMPORTANT',
     },
 
     {
         tune: 'Healing-Water-David-Renda',
-        backgroundImageName: 'meditation-video2',
+        backgroundImageName: 'bg-1',
         affirmation: 'I CAN BUILD TRUST',
     },
 
@@ -51,7 +51,7 @@ const songs = [
 
 // Background Cover Images
 
-let poster = ['4.jpg', '5.jpg', 'bg-1.jpg'];
+//let poster = ['4.jpg', '5.jpg', 'bg-1.jpg'];
 
 
 //Load music details to the DOM
@@ -64,9 +64,10 @@ loadSong(songs[songIndex]);
 
 function loadSong(songs) {
     
-    //title.innerText= song;
+    
     audioRef.src = `assets/sounds/${songs.tune}.mp3`;
     affirmationRef.innerText = songs.affirmation;
+    bgImageRef.src = `assets/bg-media/${songs.backgroundImageName}.jpg`;
 
     //$(bgImage).attr("src", bgImage[songIndex]);
     //bgImage.src = `assets/bg-media/${song}.jpg`;

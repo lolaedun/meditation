@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap');
 
 
-body { 
-  /* The image used */
-  background-image: url(../assets/bg-media/bg-1.jpg);
+ #bg-img { 
+  
 
   /* Full height */
   height: 100%; 
@@ -12,7 +11,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  position: absolute;
+  z-index: -1;
+ }
+body {
   font-family: 'Roboto', sans-serif;
 }
 

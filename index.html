@@ -10,51 +10,56 @@
 <link rel="stylesheet" href="assets/style.css">
 <title>I am...Meditation & Affirmations</title>
 </head>
-<body id=bg-img>
-    <div class="container">
-        
-        <h3 class="affirmation">Affirmation:</h3><h3 id="affirmation">"I CAN DO HARD THINGS"</h3>
-        
-        <div class="media-player">
-            <audio class = "song" src="assets/sounds/bensound-relaxing.mp3" id="audio">
-            </audio>
-            <button class="back">
-                <i class="fas fa-step-backward"></i>
-            </button>
+<body >
+    <div class= "bg-img">
+     
+    <img src="assets/bg-media/4.jpg" alt="music-cover" id="bg-img" />
+     
+        <div class="container">
+            
+            <h3 class="affirmation">Affirmation:</h3><h3 id="affirmation">"I CAN DO HARD THINGS"</h3>
+            
+            <div class="media-player">
+                <audio class = "song" src="assets/sounds/bensound-relaxing.mp3" id="audio">
+                </audio>
+                <button class="back">
+                    <i class="fas fa-step-backward"></i>
+                </button>
 
-            <button class="play" data-sound="assets/sounds/bensound-relaxing.mp3" data-media="assets/bg-media/bg-1.jpg">
-                <i class="fas fa-play"></i>
-            </button>
+                <button class="play" data-sound="assets/sounds/bensound-relaxing.mp3" data-media="assets/bg-media/bg-1.jpg">
+                    <i class="fas fa-play"></i>
+                </button>
 
-            <button class="forward">
-                <i class="fas fa-step-forward"></i>
-            </button>  
-        <h3 class="timer-countdown">0:00</h3>
+                <button class="forward">
+                    <i class="fas fa-step-forward"></i>
+                </button>  
+            <h3 class="timer-countdown">0:00</h3>
 
+            </div>
+
+            
+
+
+
+            
+
+            <div class="time-selector">
+                <button type="button" class="btn btn-outline-info" data-time="120">2 Mins</button>
+                <button type="button" class="btn btn-outline-info" data-time="300">5 Mins</button>
+                <button type="button" class="btn btn-outline-info" data-time="600">10 Mins</button>
+            </div>
+
+            
+            
+            <div class="breathing-animation"></div>
+            <div class="social-share"></div>
         </div>
-
-        
-
-
-
-        
-
-        <div class="time-selector">
-            <button type="button" class="btn btn-outline-info" data-time="120">2 Mins</button>
-            <button type="button" class="btn btn-outline-info" data-time="300">5 Mins</button>
-            <button type="button" class="btn btn-outline-info" data-time="600">10 Mins</button>
-        </div>
-
-        
-        
-        <div class="breathing-animation"></div>
-        <div class="social-share"></div>
-    </div>
     
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-<script src="assets/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="assets/script.js"></script>
+    </div>
 </body>
 </html>
