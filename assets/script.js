@@ -36,7 +36,7 @@ const songs = [
 
     {
         tune: 'india',
-        backgroundImageName: 'meditation-video2',
+        backgroundImageName: 'meditation-video9',
         affirmation: 'I CAN PAUSE AND BEGIN AGAIN',
     },
 
@@ -215,4 +215,3 @@ timeSelector.forEach(option => {
     
     });
 })
-
