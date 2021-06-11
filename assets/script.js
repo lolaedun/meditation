@@ -18,7 +18,7 @@ const affirmationRef = document.querySelector("#affirmation")
 
 //keep track of sounds
 
-let songIndex = 2;
+let songIndex = 6;
 
 const songs = [
 
@@ -33,6 +33,31 @@ const songs = [
         backgroundImageName: 'meditation-video7',
         affirmation: 'I CAN BUILD TRUST',
     },
+
+    {
+        tune: 'india',
+        backgroundImageName: 'meditation-video2',
+        affirmation: 'I CAN PAUSE AND BEGIN AGAIN',
+    },
+
+    {
+        tune: 'om',
+        backgroundImageName: 'meditation-video4',
+        affirmation: 'EVERYTHING WILL BE OK',
+    },
+
+    {
+        tune: 'pleasing',
+        backgroundImageName: 'meditation-video5',
+        affirmation: 'I ALWAYS FIND HOPE',
+    },
+
+     {
+        tune: 'release',
+        backgroundImageName: 'meditation-video6',
+        affirmation: 'I CHOOSE TO FEEL PEACEFUL',
+    },
+
 
     {
         tune: 'Healing-Water-David-Renda',
