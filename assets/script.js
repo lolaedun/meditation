@@ -1,19 +1,20 @@
-const mediaPlayer = document.querySelector(".media-player");
-const song = document.querySelector(".song");
+const mediaPlayerRef = document.querySelector(".media-player");
+const songRef = document.querySelector(".song");
 const play = document.querySelector(".play");
 const back = document.querySelector(".back");
 const forward = document.querySelector(".forward");
 const title = document.querySelector("#title");
 
-const audio = document.querySelector("#audio");
+const audioRef = document.querySelector("#audio");
 
 //Timer
 const countdown = document.querySelector('.timer-countdown');
 const timeSelector = document.querySelectorAll('.time-selector button'); 
 
 const sounds = document.querySelector(".sounds");
-//Background
-const bgImage = document.querySelector("#bg-img");
+
+const bgImageRef = document.querySelector("#bg-img");
+const affirmationRef = document.querySelector("#affirmation")
 
 //keep track of sounds
 
