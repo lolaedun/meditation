@@ -44,16 +44,6 @@ const songs = [
 ]
 
 
-//Sound Titles
-
-
-//const songs = ['bensound-relaxing', 'Healing-Water-David-Renda', 'rain-solace'];
-
-// Background Cover Images
-
-//let poster = ['4.jpg', '5.jpg', 'bg-1.jpg'];
-
-
 //Load music details to the DOM
 
 loadSong(songs[songIndex]);
@@ -153,13 +143,16 @@ play.addEventListener("click", function() {
 
     countdown.textContent = `${minutes}:${seconds}`;
     
-    };
-
     if (currentTime >= defaultDuration) {
-        songRef.pauseSong();
+        songRef.pause();
         songRef.currentTime = 0;
+        play.querySelector('i.fas').classList.add('fa-play')
+        play.querySelector('i.fas').classList.remove('fa-pause')
         
     };
+    };
+
+    
     
     
 });

@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap');
 
 
- #bg-img { 
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  /* Full height */
-  height: 100vh; 
-
-  /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
+#bg-img {
+    /* height: 100vh; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    position: fixed;
+    min-width: 100vh;
+    min-height: 100vh;
     z-index: -1;
- 
- }
+}
+
+
 body {
   font-family: 'Roboto', sans-serif;
 }
