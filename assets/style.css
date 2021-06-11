@@ -21,12 +21,14 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: #ffffff;
 }
 
 
 button{
     background-color: transparent;
     border: 0;
+    color: #ffffff;
 }
 
 .h3, h3 {
@@ -42,10 +44,14 @@ button{
     justify-content: center;
     padding: 10px;
     margin: 0 20px;
-     
+    
   
 }
 
+.btn-outline-info {
+    color: #ffffff;
+    border-color: #ffffff;
+}
 
 .media-player {
     
