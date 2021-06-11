@@ -20,7 +20,7 @@ const affirmationRef = document.querySelector("#affirmation")
 
 let songIndex = 2;
 
-const songs = [
+/*const songs = [
 
     {
         tune: 'bensound-relaxing',
@@ -42,12 +42,12 @@ const songs = [
 
 
 ]
-
+*/
 
 //Sound Titles
 
 
-//const songs = ['bensound-relaxing', 'Healing-Water-David-Renda', 'rain-solace'];
+const songs = ['bensound-relaxing', 'Healing-Water-David-Renda', 'rain-solace'];
 
 // Background Cover Images
 
@@ -62,10 +62,10 @@ loadSong(songs[songIndex]);
 
 //update Music info
 
-function loadSong(song) {
+function loadSong(songRef) {
     
     //title.innerText= song;
-    audio.src = `assets/sounds/${song}.mp3`;
+    audio.src = `assets/sounds/${songRef}.mp3`;
     //$(bgImage).attr("src", bgImage[songIndex]);
     //bgImage.src = `assets/bg-media/${song}.jpg`;
 }
@@ -74,7 +74,7 @@ function loadSong(song) {
 //Play music
 function playSong() {
 
-    mediaPlayer.classList.add('play')
+    mediaPlayerRef.classList.add('play')
     play.querySelector('i.fas').classList.remove('fa-play')
     play.querySelector('i.fas').classList.add('fa-pause')
 
@@ -83,7 +83,7 @@ function playSong() {
 
 //Pause music
 function pauseSong() {
-    mediaPlayer.classList.remove('play')
+    mediaPlayerRef.classList.remove('play')
     play.querySelector('i.fas').classList.add('fa-play')
     play.querySelector('i.fas').classList.remove('fa-pause')
 
@@ -131,7 +131,7 @@ let defaultDuration = 600;
 
 play.addEventListener("click", function() {
     
-    let nowPlaying = mediaPlayer.classList.contains('play')
+    let nowPlaying = mediaPlayerRef.classList.contains('play')
     
     if (nowPlaying) {
         pauseSong();
@@ -143,22 +143,22 @@ play.addEventListener("click", function() {
     }
 
     // Animate the Countdown Timer
-    song.ontimeupdate = function () {
+    songRef.ontimeupdate = function () {
     
-    let currentTime = song.currentTime;
+    let currentTime = songRef.currentTime;
     let elapsed = defaultDuration - currentTime;
     let seconds = Math.floor (elapsed % 60);
     let minutes = Math.floor (elapsed / 60);
 
     countdown.textContent = `${minutes}:${seconds}`;
-    console.log(song.ontimeupdate)
+    
     };
 
-    if (currentTime >= defaultDuration) {
-        song.pause();
-        song.currentTime = 0;
+    /*if (currentTime >= defaultDuration) {
+        songRef.pause();
+        songRef.currentTime = 0;
         
-    };
+    };*/
     
     
 });
