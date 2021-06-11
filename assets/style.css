@@ -22,7 +22,9 @@ button{
     border: 0;
 }
 
-
+.h3, h3 {
+    font-size: 2.1rem;
+}
 
 
 .time-selector {
@@ -58,15 +60,18 @@ button{
     justify-content: space-evenly;
 }
 
-#affirmation {
 
+#affirmation {
     position: absolute;
     top: 30%;
-    left: 32%;
+    left: 43%;
     align-items: center;
 }
-
 .affirmation {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
+    position: absolute;
+    top: 30%;
+    left: 31%;
+    align-items: center;
 }

@@ -62,10 +62,11 @@ loadSong(songs[songIndex]);
 
 //update Music info
 
-function loadSong(songRef) {
+function loadSong(songs) {
     
     //title.innerText= song;
-    audioRef.src = `assets/sounds/${songRef}.mp3`;
+    audioRef.src = `assets/sounds/${songs.tune}.mp3`;
+    affirmationRef.innerText = songs.affirmation;
 
     //$(bgImage).attr("src", bgImage[songIndex]);
     //bgImage.src = `assets/bg-media/${song}.jpg`;
