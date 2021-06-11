@@ -1,29 +1,52 @@
-let mediaPlayer = document.querySelector(".media-player");
-let song = document.querySelector(".song");
-let play = document.querySelector(".play");
-let back = document.querySelector(".back");
-let forward = document.querySelector(".forward");
-let title = document.querySelector("#title");
+const mediaPlayer = document.querySelector(".media-player");
+const song = document.querySelector(".song");
+const play = document.querySelector(".play");
+const back = document.querySelector(".back");
+const forward = document.querySelector(".forward");
+const title = document.querySelector("#title");
 
-let audio = document.querySelector("#audio");
+const audio = document.querySelector("#audio");
 
 //Timer
-let countdown = document.querySelector('.timer-countdown');
-let timeSelector = document.querySelectorAll('.time-selector button'); 
+const countdown = document.querySelector('.timer-countdown');
+const timeSelector = document.querySelectorAll('.time-selector button'); 
 
-let sounds = document.querySelector(".sounds");
+const sounds = document.querySelector(".sounds");
 //Background
-let bgImage = document.querySelector("#bg-img");
+const bgImage = document.querySelector("#bg-img");
 
 //keep track of sounds
 
 let songIndex = 2;
 
+const songs = [
+
+    {
+        tune: 'bensound-relaxing',
+        backgroundImageName: 'meditation-video1',
+        quote: 'MY NEEDS ARE IMPORTANT',
+    },
+
+    {
+        tune: 'Healing-Water-David-Renda',
+        backgroundImageName: 'meditation-video2',
+        quote: 'I CAN BUILD TRUST',
+    },
+
+    {
+        tune: 'rain-solace',
+        backgroundImageName: '4',
+        quote: 'MY GROUP NEEDS ME',
+    },
+
+
+]
+
 
 //Sound Titles
 
 
-const songs = ['bensound-relaxing', 'Healing-Water-David-Renda', 'rain-solace'];
+//const songs = ['bensound-relaxing', 'Healing-Water-David-Renda', 'rain-solace'];
 
 // Background Cover Images
 
@@ -130,12 +153,12 @@ play.addEventListener("click", function() {
     console.log(song.ontimeupdate)
     };
 
-    /*if (currentTime >= defaultDuration) {
+    if (currentTime >= defaultDuration) {
         song.pause();
         song.currentTime = 0;
         
     };
-    */
+    
     
 });
 
