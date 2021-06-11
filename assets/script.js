@@ -144,7 +144,7 @@ play.addEventListener("click", function() {
 
     
 
-    countdown.innerHTML = `${minutes}:${seconds}`;
+    countdown.innerHTML = `${minutes}:${seconds <10? '0': '' }${seconds}`;
     
     if (currentTime >= defaultDuration) {
         songRef.pause();
@@ -183,3 +183,4 @@ timeSelector.forEach(option => {
     
     });
 })
+
