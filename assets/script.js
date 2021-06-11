@@ -75,8 +75,9 @@ function playSong() {
 //Pause music
 function pauseSong() {
     mediaPlayerRef.classList.remove('play')
-    play.querySelector('i.fas').classList.add('fa-play')
     play.querySelector('i.fas').classList.remove('fa-pause')
+    play.querySelector('i.fas').classList.add('fa-play')
+    
 
     audioRef.pause();
 
@@ -93,7 +94,10 @@ function PrevSound() {
     }
 
     loadSong(songs[songIndex]);
-    playSong();
+    play.querySelector('i.fas').classList.remove('fa-pause');
+    play.querySelector('i.fas').classList.add('fa-play');
+    bgImageRef.pause();
+    //playSong();
 }
 
 
@@ -107,7 +111,10 @@ function NextSound() {
     }
 
     loadSong(songs[songIndex]);
-    playSong();
+    play.querySelector('i.fas').classList.remove('fa-pause');
+    play.querySelector('i.fas').classList.add('fa-play');
+    bgImageRef.pause();
+    //playSong();
 }
 
 //Meditation Duration
@@ -127,11 +134,11 @@ play.addEventListener("click", function() {
     if (nowPlaying) {
         pauseSong();
         bgImageRef.pause();
-        //bgImage.play();
+        
     } else {
         playSong();
         bgImageRef.play();
-        //bgImage.pause();
+        
     }
 
     // Animate the Countdown Timer
