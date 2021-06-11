@@ -8,7 +8,7 @@ let title = document.querySelector("#title");
 let audio = document.querySelector("#audio");
 
 //Timer
-let countdown = document.getElementsByClassName('.timer-countdown');
+let countdown = document.querySelector('.timer-countdown');
 let timeSelector = document.querySelectorAll('.time-selector button'); 
 
 let sounds = document.querySelector(".sounds");
@@ -127,6 +127,7 @@ play.addEventListener("click", function() {
     let minutes = Math.floor (elapsed / 60);
 
     countdown.textContent = `${minutes}:${seconds}`;
+    console.log(song.ontimeupdate)
     };
 
     /*if (currentTime >= defaultDuration) {
