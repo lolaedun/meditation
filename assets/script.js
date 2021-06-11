@@ -24,20 +24,20 @@ const songs = [
 
     {
         tune: 'bensound-relaxing',
-        backgroundImageName: '1',
+        backgroundImageName: 'meditation-video1',
         affirmation: 'MY NEEDS ARE IMPORTANT',
     },
 
     {
-        tune: 'Healing-Water-David-Renda',
-        backgroundImageName: '2',
+        tune: 'rain-solace',
+        backgroundImageName: 'meditation-video7',
         affirmation: 'I CAN BUILD TRUST',
     },
 
     {
-        tune: 'rain-solace',
-        backgroundImageName: '3',
-        affirmation: 'MY GROUP NEEDS ME',
+        tune: 'Healing-Water-David-Renda',
+        backgroundImageName: 'meditation-video3',
+        affirmation: 'I DESERVE TO BE HAPPY',
     },
 
 
@@ -67,10 +67,8 @@ function loadSong(songs) {
     
     audioRef.src = `assets/sounds/${songs.tune}.mp3`;
     affirmationRef.innerText = songs.affirmation;
-    bgImageRef.src = `assets/bg-media/${songs.backgroundImageName}.jpg`;
+    bgImageRef.src = `assets/bg-media/${songs.backgroundImageName}.mp4`;
 
-    //$(bgImage).attr("src", bgImage[songIndex]);
-    //bgImage.src = `assets/bg-media/${song}.jpg`;
 }
 
 
@@ -157,11 +155,11 @@ play.addEventListener("click", function() {
     
     };
 
-    /*if (currentTime >= defaultDuration) {
-        songRef.pause();
+    if (currentTime >= defaultDuration) {
+        songRef.pauseSong();
         songRef.currentTime = 0;
         
-    };*/
+    };
     
     
 });
