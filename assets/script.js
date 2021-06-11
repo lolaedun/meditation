@@ -24,19 +24,19 @@ const songs = [
 
     {
         tune: 'bensound-relaxing',
-        backgroundImageName: '5',
+        backgroundImageName: '1',
         affirmation: 'MY NEEDS ARE IMPORTANT',
     },
 
     {
         tune: 'Healing-Water-David-Renda',
-        backgroundImageName: 'bg-1',
+        backgroundImageName: '2',
         affirmation: 'I CAN BUILD TRUST',
     },
 
     {
         tune: 'rain-solace',
-        backgroundImageName: '4',
+        backgroundImageName: '3',
         affirmation: 'MY GROUP NEEDS ME',
     },
 
