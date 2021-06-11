@@ -142,7 +142,9 @@ play.addEventListener("click", function() {
     let seconds = Math.floor (elapsed % 60);
     let minutes = Math.floor (elapsed / 60);
 
-    countdown.textContent = `${minutes}:${seconds}`;
+    
+
+    countdown.innerHTML = `${minutes}:${seconds}`;
     
     if (currentTime >= defaultDuration) {
         songRef.pause();
@@ -170,9 +172,14 @@ forward.addEventListener("click", NextSound);
 // select time duration for meditation
 
 timeSelector.forEach(option => {
+    
     option.addEventListener("click", function() { //event listener for time selector buttons
     defaultDuration = this.getAttribute("data-time");
-    countdown.textContent = `${Math.floor(defaultDuration / 60)}:${Math.floor(defaultDuration % 60
-        )}`;
+    let displayMins = Math.floor(defaultDuration / 60);
+    let displaySecs = Math.floor(defaultDuration % 60);
+    if (displaySecs<10) {displaySecs = "0" + displaySecs};
+    countdown.innerHTML = `${displayMins}:${displaySecs}`;
+
+    
     });
 })
