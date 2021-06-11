@@ -20,34 +20,34 @@ const affirmationRef = document.querySelector("#affirmation")
 
 let songIndex = 2;
 
-/*const songs = [
+const songs = [
 
     {
         tune: 'bensound-relaxing',
         backgroundImageName: 'meditation-video1',
-        quote: 'MY NEEDS ARE IMPORTANT',
+        affirmation: 'MY NEEDS ARE IMPORTANT',
     },
 
     {
         tune: 'Healing-Water-David-Renda',
         backgroundImageName: 'meditation-video2',
-        quote: 'I CAN BUILD TRUST',
+        affirmation: 'I CAN BUILD TRUST',
     },
 
     {
         tune: 'rain-solace',
         backgroundImageName: '4',
-        quote: 'MY GROUP NEEDS ME',
+        affirmation: 'MY GROUP NEEDS ME',
     },
 
 
 ]
-*/
+
 
 //Sound Titles
 
 
-const songs = ['bensound-relaxing', 'Healing-Water-David-Renda', 'rain-solace'];
+//const songs = ['bensound-relaxing', 'Healing-Water-David-Renda', 'rain-solace'];
 
 // Background Cover Images
 
@@ -65,7 +65,8 @@ loadSong(songs[songIndex]);
 function loadSong(songRef) {
     
     //title.innerText= song;
-    audio.src = `assets/sounds/${songRef}.mp3`;
+    audioRef.src = `assets/sounds/${songRef}.mp3`;
+
     //$(bgImage).attr("src", bgImage[songIndex]);
     //bgImage.src = `assets/bg-media/${song}.jpg`;
 }
@@ -78,7 +79,7 @@ function playSong() {
     play.querySelector('i.fas').classList.remove('fa-play')
     play.querySelector('i.fas').classList.add('fa-pause')
 
-    audio.play();
+    audioRef.play();
 }
 
 //Pause music
@@ -87,7 +88,7 @@ function pauseSong() {
     play.querySelector('i.fas').classList.add('fa-play')
     play.querySelector('i.fas').classList.remove('fa-pause')
 
-    audio.pause();
+    audioRef.pause();
 
 }
 
