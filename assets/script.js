@@ -54,7 +54,7 @@ const songs = [
 
      {
         tune: 'release',
-        backgroundImageName: 'meditation-video6',
+        backgroundImageName: 'meditation-video8',
         affirmation: 'I CHOOSE TO FEEL PEACEFUL',
     },
 
