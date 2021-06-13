@@ -74,19 +74,19 @@ button{
 }
 
 
+
 #affirmation {
     position: absolute;
-    top: 30%;
-    left: 43%;
-    align-items: center;
+    top: 37vh;
+    /* left: 43%; */
+    /* align-items: center; */
 }
+
 .affirmation {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
-    position: absolute;
-    top: 30%;
-    left: 31%;
-    align-items: center;
+    position: relative;
+    top: 37vh;
 }
 
 @media (max-width: 575.98px) {
