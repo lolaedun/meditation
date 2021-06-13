@@ -88,3 +88,7 @@ button{
     left: 31%;
     align-items: center;
 }
+
+@media (max-width: 575.98px) {
+    
+}
