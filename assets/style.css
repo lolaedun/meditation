@@ -77,7 +77,7 @@ button{
 
 #affirmation {
     position: absolute;
-    top: 37vh;
+    top: 27vh;
     /* left: 43%; */
     /* align-items: center; */
 }
@@ -86,7 +86,7 @@ button{
     font-family: 'Pacifico', cursive;
     font-size: 30px;
     position: relative;
-    top: 37vh;
+    top: 27vh;
 }
 
 @media (max-width: 575.98px) {
