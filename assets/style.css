@@ -64,11 +64,8 @@ button{
 }
 
 .timer-countdown {
-    position: absolute;
+    position: relative;
     font-size: 50px;
-    top: 70%;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
 
