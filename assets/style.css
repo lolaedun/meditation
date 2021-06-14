@@ -37,13 +37,10 @@ button{
 
 
 .time-selector {
-    position: absolute;
-    top: 60%;
-    left: 40%;
+    
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    margin: 0 20px;
+    
     
   
 }
@@ -53,16 +50,16 @@ button{
     border-color: #ffffff;
 }
 
+
+
 .media-player {
     
-    
-    height: 100vh;
     display: flex;
     flex-direction: row;
     font-size: 40px;
     align-items: center;
+    padding-top: 8em;
     justify-content: space-evenly;
-    
 }
 
 .timer-countdown {
