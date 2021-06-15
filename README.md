@@ -1,10 +1,12 @@
 
 
-Welcome 
+## Welcome to I am...
 
-This is a meditation/affirmation site designed for Children.
+This is a family friendly meditation/affirmation site designed for both adults and children. It is a space to come to when you need to take some time out of your day to re-center and re-focus yourself.
 
-## I am...
+In those moments when you or your children are feeling off balance and off kilter with life. Taking two minutes out of the day can really make a difference.
+
+
 
 ## **UX**
 
@@ -104,6 +106,8 @@ I have used the following websites to gather ideas, information, background imag
 * [Traversy Media](https://www.youtube.com/watch?v=QTHRWGn_sJw&ab_channel=TraversyMediaTraversyMediaVerified)
 * [fesliyanstudios](https://www.fesliyanstudios.com/royalty-free-music/downloads-c/peaceful-and-relaxing-music/22)
 * [Pixabay](https://pixabay.com/music/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=2055)
+* [Google Chrome Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en)
+* [I am, I can](https://www.dk.com/uk/book/9780241420256-i-am-i-can/)
 
 
 
