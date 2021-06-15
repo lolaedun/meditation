@@ -32,7 +32,7 @@ button{
 }
 
 .h3, h3 {
-    font-size: 2.1rem;
+    font-size: 2em;
 }
 
 
@@ -59,7 +59,7 @@ button{
     flex-direction: row;
     font-size: 40px;
     align-items: center;
-    padding-top: 8em;
+    padding-top: 6em;
     justify-content: space-evenly;
 }
 
@@ -71,10 +71,9 @@ button{
 
 
 #affirmation {
-    position: absolute;
+    position: relative;
     top: 27vh;
-    /* left: 43%; */
-    /* align-items: center; */
+    
 }
 
 .affirmation {
@@ -84,6 +83,39 @@ button{
     top: 27vh;
 }
 
-@media (max-width: 575.98px) {
-    
+
+
+@media (min-width: 575.98px) {
+   
 }
+@media (min-width: 768px) { 
+    .media-player {
+    
+    padding-top: 9em;
+    }
+     .affirmation {
+    
+    left: 55px;
+}
+ }
+
+ @media (min-width: 1024px) { 
+    .media-player {
+    
+    padding-top: 11em;
+    }
+    .affirmation {
+    
+    font-size: 40px;
+}
+    #affirmation {
+    
+    font-size: 2.6em;
+    } 
+
+    .btn-outline-info {
+    
+    margin: 2em;
+    }
+
+ }
