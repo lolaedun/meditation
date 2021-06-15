@@ -2,6 +2,8 @@
 
 ## Welcome to I am...
 
+![Mock up](wireframes/meditation-app-screenshot.png
+)
 This is a family friendly meditation/affirmation site designed for both adults and children. It is a space to come to when you need to take some time out of your day to re-center and re-focus yourself.
 
 In those moments when you or your children are feeling off balance and off kilter with life. Taking two minutes out of the day can really make a difference.
