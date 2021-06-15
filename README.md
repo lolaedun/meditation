@@ -1,6 +1,6 @@
 
 
-## Welcome to I am...
+## Welcome to I am...Meditation & Affirmations
 
 ![Mock up](wireframes/meditation-app-screenshot.png
 )
