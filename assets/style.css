@@ -119,3 +119,19 @@ button{
     }
 
  }
+
+ @media (min-width: 1200px) { 
+     #affirmation {
+    font-size: 2.1em;
+    right: 68px;
+}
+    .affirmation {
+    
+    left: 167px;
+    font-size: 32px;
+}
+    .media-player {
+    
+    padding-top: 8em;
+    }
+ }
