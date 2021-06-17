@@ -98,6 +98,7 @@ There are three time options to choose from which will activate the countdown ti
 
 - child mode
 - Social share button
+- audio fade on pause or at end of timer
 
 
 ## Technologies Used
