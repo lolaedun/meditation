@@ -94,6 +94,11 @@ I chose affirmations that work well for both children and adults to make it a fa
 There are three time options to choose from which will activate the countdown timer. These timing options are suitable for the beginner meditator, the busy parent or personal lifestyle and for children to get comfortable with the idea of taking short times out of their day to go within.
 
 #### Timer countdown
+
+The default time begins at 10mins. If the user selects a different time from the selector buttons then the countdown will automatically update. At the end of the countdown, the timer will automatically reset to the previously chosen time. 
+
+I have also ensured the seconds are displayed in double digits from number 9, but left the minutes to display in single digit for a cleaner and more simple look.
+
 ### Features Left to Implement
 
 - child mode
