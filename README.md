@@ -30,10 +30,9 @@ You can view the live website [HERE](https://lolaedun.github.io/meditation/)
 ### **User Stories**
 
 * As a user, I would like to choose timing of meditation/affirmation.
-* As a user, I would like to set my meditation environment to suit my needs.
-* As a user, I would ike to be able to cycle through different affirmations and sounds.
+* As a user, I would like to set my meditation/affirmation environment to suit my needs.
 * As a user, I would like to be able to switch off sound but keep timer going.
-* As a user, I would like to be able to have access to this meditation regardless of the device i'm using.
+* As a user, I would like to be able to have access to meditation regardless of the device i'm using.
 * As a user, I would like to be share my meditation or affirmation with a friend.
 
 
@@ -106,6 +105,11 @@ I have chosen use background video over images and ensured this plays well acros
 
 I have opted for simple imagery/videoes that dont distract from the ability to see the buttons and affirmations as well as to ensure a relaxed state is quickly achieved without too much going on. Footage of nature has helped me to achieve this goal.
 
+#### Volume control
+I initally wanted to include this feature but decided against it as it took away from the simple and clean background space I was looking to create. I feel the user automatically adjusts the volume on their device when watching videos or listening to sounds so it wasn't necessary to have it displayed on screen. 
+
+Sound can be muted on users device if they would prefer a quiet meditation or are in a space where having the sound on will bring unwanted attention to the user.
+
 ### Features Left to Implement
 
 - child mode
@@ -153,7 +157,7 @@ As a user, I would like to choose timing of meditation/affirmation.
 * **Verdict**  
 
 #### User story:
-As a user, I would like to choose timing of meditation/affirmation.
+As a user, I would like to set my meditation/affirmation environment to suit my needs.
 
 * **Plan**  
 
