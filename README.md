@@ -31,18 +31,17 @@ You can view the live website [HERE](https://lolaedun.github.io/meditation/)
 
 * As a user, I would like to choose timing of meditation/affirmation.
 * As a user, I would like to set my meditation/affirmation environment to suit my needs.
-* As a user, I would like to be able to switch off sound but keep timer going.
+* As a user, I would like to be able to switch off sound but keep timer and video going.
 * As a user, I would like to be able to have access to meditation regardless of the device i'm using.
 * As a user, I would like to be share my meditation or affirmation with a friend.
 
 
 ### **Site owners Goals**
-* To build a simple API for child affirmations.
-* To call in API for adult affirmations.
+* To build a simple API with family friendly affirmations.
 * To create different user modes.
 * To collate different background sounds for meditation.
-* To collate different background images to sync with meditations.
-* To Animate breathing object during meditation.
+* To collate different background images/videos to sync with meditations.
+
 
 
 ## Wireframes
@@ -91,7 +90,7 @@ I created an object array for affirmations that are assigned to specific image/v
 I chose affirmations that work well for both children and adults to make it a family friendly space.
 #### Time Select buttons
 
-There are three time options to choose from which will activate the countdown timer. These timing options are suitable for the beginner meditator, the busy parent or personal lifestyle and for children to get comfortable with the idea of taking short times out of their day to go within.
+There are three time options to choose from which will activate the countdown timer. These timing options are suitable for the beginner meditator, the busy parent or personal lifestyle and for children to get comfortable with the idea of taking short times out of their day to go within on a daily basis.
 
 #### Timer countdown
 
@@ -143,10 +142,10 @@ Sound can be muted on users device if they would prefer a quiet meditation or ar
 As a user, I would like to choose timing of meditation/affirmation.
 
 * **Plan**  
-
+My plan is to create 3 buttons for the user to choose various time options from.
 
 * **Implementation**  
-
+I created 3 simple buttons that changed on hover. These buttons trigger the timer countdown when clicked.
 
 * **Test**
 
@@ -160,7 +159,7 @@ As a user, I would like to choose timing of meditation/affirmation.
 As a user, I would like to set my meditation/affirmation environment to suit my needs.
 
 * **Plan**  
-
+My plan is to create simple and quick options for the user to create a meditation space that suits them from selecting background image/video to selecting audio and times.
 
 * **Implementation**  
 
@@ -172,6 +171,26 @@ As a user, I would like to set my meditation/affirmation environment to suit my 
 
 
 * **Verdict**  
+
+#### User story:
+As a user, I would like to be able to have access to meditation regardless of the device i'm using.
+
+* **Plan**  
+To create a responsive website that works across various devices.
+
+* **Implementation**  
+
+
+* **Test**
+
+
+* **Result**
+
+
+* **Verdict** 
+
+#### User story:
+
 
 
 ## Credits
