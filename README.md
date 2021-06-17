@@ -76,11 +76,14 @@ media player buttons, toggle switches, button icons.
 
 
 #### Play icon
-On the play button I have added event listeners to start the background music and video as well as the countdown timer.
+On the play button I have added event listeners to start the background music and video as well as the default countdown timer or selected time.
 
 The pause icon displays as soon as play is activated. Pressing the pause button will pause both audio and video playback
-#### Next icon
-#### Previous icon
+#### Next and Previous icons
+The next button will fire up a new background image/video when pressed as well as queue up a new background audio and new affirmation. It will also load the timer to default or previously selected time.
+
+I have purposely chosen to not autoplay video and sound when the previous or next buttons are pressed to give the user the ability to set their meditation space and requirements before starting.
+
 #### Affirmations
 #### Time Select buttons
 #### Timer countdown
