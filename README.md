@@ -99,6 +99,12 @@ The default time begins at 10mins. If the user selects a different time from the
 
 I have also ensured the seconds are displayed in double digits from number 9, but left the minutes to display in single digit for a cleaner and more simple look.
 
+#### Background Image/Video
+
+I have chosen use background video over images and ensured this plays well across various devices. The video version assists with helping to sit through the meditation/affirmation for longer periods and provides a form of guided imagery.
+
+I have opted for simple imagery/videoes that dont distract from the ability to see the buttons and affirmations as well as to ensure a relaxed state is quickly achieved without too much going on. Footage of nature has helped me to achieve this goal.
+
 ### Features Left to Implement
 
 - child mode
