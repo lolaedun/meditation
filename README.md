@@ -61,11 +61,11 @@ view here:
 
 ### Icons
 
-media player buttons, toggle switches, button icons, speaker icons.
+media player buttons, toggle switches, button icons.
 
 ### Colours Mood board and Mockups
 
-- Pastel, soft colours, relaxing imagery.
+- Pastel, soft colours, relaxing imagery, texture, nature, movement.
 
 ![Mood board](wireframes/Meditation-mood-board.png)
 
@@ -74,15 +74,8 @@ media player buttons, toggle switches, button icons, speaker icons.
 ### Features Left to Implement
 
 - child mode
-- Timing options
-- Timer Countdown
-- affirmations
-- Media player
-- Volume Control
-- Background Images/Videos 
-- Background sounds/music
-- Breathing Animation
 - Social share button
+
 
 ## Technologies Used
 
