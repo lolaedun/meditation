@@ -85,7 +85,14 @@ The next button will fire up a new background image/video when pressed as well a
 I have purposely chosen to not autoplay video and sound when the previous or next buttons are pressed to give the user the ability to set their meditation space and requirements before starting.
 
 #### Affirmations
+
+I created an object array for affirmations that are assigned to specific image/video. These affirmations change when the next or previous buttons are clicked.
+
+I chose affirmations that work well for both children and adults to make it a family friendly space.
 #### Time Select buttons
+
+There are three time options to choose from which will activate the countdown timer. These timing options are suitable for the beginner meditator, the busy parent or personal lifestyle and for children to get comfortable with the idea of taking short times out of their day to go within.
+
 #### Timer countdown
 ### Features Left to Implement
 
