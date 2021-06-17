@@ -30,9 +30,10 @@ You can view the live website [HERE](https://lolaedun.github.io/meditation/)
 ### **User Stories**
 
 * As a user, I would like to choose timing of meditation/affirmation.
-* As a user, I would like to be able to switch from child mode to adult mode.
+* As a user, I would like to set my meditation environment to suit my needs.
 * As a user, I would ike to be able to cycle through different affirmations and sounds.
 * As a user, I would like to be able to switch off sound but keep timer going.
+* As a user, I would like to be able to have access to this meditation regardless of the device i'm using.
 * As a user, I would like to be share my meditation or affirmation with a friend.
 
 
@@ -129,6 +130,45 @@ I have opted for simple imagery/videoes that dont distract from the ability to s
 
 ### Languages
 - This project uses HTML, CSS and JavaScript programming languages.
+
+## **Testing**
+
+
+
+#### User story:
+As a user, I would like to choose timing of meditation/affirmation.
+
+* **Plan**  
+
+
+* **Implementation**  
+
+
+* **Test**
+
+
+* **Result**
+
+
+* **Verdict**  
+
+#### User story:
+As a user, I would like to choose timing of meditation/affirmation.
+
+* **Plan**  
+
+
+* **Implementation**  
+
+
+* **Test**
+
+
+* **Result**
+
+
+* **Verdict**  
+
 
 ## Credits
 
