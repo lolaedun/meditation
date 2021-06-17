@@ -70,7 +70,20 @@ media player buttons, toggle switches, button icons.
 ![Mood board](wireframes/Meditation-mood-board.png)
 
 # Features
+## Existing Features
 
+### Elements on the page
+
+
+#### Play icon
+On the play button I have added event listeners to start the background music and video as well as the countdown timer.
+
+The pause icon displays as soon as play is activated. Pressing the pause button will pause both audio and video playback
+#### Next icon
+#### Previous icon
+#### Affirmations
+#### Time Select buttons
+#### Timer countdown
 ### Features Left to Implement
 
 - child mode
