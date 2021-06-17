@@ -6,6 +6,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+#logo{ 
+    position: fixed;
+    padding: 3px; 
+} 
 
 #bg-img {
     
