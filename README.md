@@ -145,13 +145,30 @@ As a user, I would like to choose timing of meditation/affirmation.
 My plan is to create 3 buttons for the user to choose various time options from.
 
 * **Implementation**  
-I created 3 simple buttons that changed on hover. These buttons trigger the timer countdown when clicked.
+I created 3 simple buttons that highlight on hover. These buttons trigger the timer countdown when clicked.
 
 * **Test**
+
+    When I hover over the timer selector buttons they get highlighted to make it easier for the user to read over the video.
+
+    I clicked on the 2 min selector button and the default countdown updates to the correct time. Pressing the play button the countdown timer begins along with the music and video. The seconds display in double digits and the minutes in single digit.
+
+    When the countdown timer gets to zero, it automatically resets back to 2 mins.
+
+    When I click on the previous and next buttons. The 2 min timer is still selected.
+
+    I repeated the above steps for the 5 mins and 10 mins selectors.
 
 
 * **Result**
 
+    Hover on buttons working as expected.
+
+    2 min timer working with no visible issues.
+
+    5 min timer pauses when music ends on a shorter track (noticable on 2nd page). It works with no issues on a longer track.
+
+    10 min timer pauses when music ends on a shorter track (noticable on 2nd page). It works with no issues on a longer track.
 
 * **Verdict**  
 
