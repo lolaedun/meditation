@@ -90,7 +90,7 @@ media player buttons, toggle switches, button icons.
 - [Bootstrap](https://www.bootstrapcdn.com/) to simplify the structure of the website and make the website responsive easily.
 - [FontAwesome](https://www.bootstrapcdn.com/fontawesome/) to provide icons for the website.
 - [Google Fonts](https://fonts.google.com/) to style the website fonts.
-- [Canva](https://www.canva.com/) to design elements for the website.
+- [Canva](https://www.canva.com/) to design mood board and video for the website.
 
 ### Languages
 - This project uses HTML, CSS and JavaScript programming languages.
