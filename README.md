@@ -69,6 +69,11 @@ media player buttons, toggle switches, button icons.
 ### Logo 
 
 I designed a simple logo to not distract the user during meditation and for branding purposes.
+
+The logo consists of a person sitting in a classic cross legged meditation pose and the text "I am...". The font used is Roboto. In addition, the favicon is the person sitting in medition pose.
+
+The white logo matches the colour of the fonts and buttons used on the website.
+
 ![Logo](assets/meditation-logo.png)
 
 ### Colours Mood board and Mockups
