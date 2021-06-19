@@ -172,6 +172,8 @@ I created 3 simple buttons that highlight on hover. These buttons trigger the ti
 
 * **Verdict**  
 Shorter audio tracks have been replaced with longer tracks and countdown timer works to the full length selected.
+
+
 #### User story:
 As a user, I would like to set my meditation/affirmation environment to suit my needs.
 
@@ -179,7 +181,9 @@ As a user, I would like to set my meditation/affirmation environment to suit my 
 My plan is to create simple and quick options for the user to create a meditation space that suits them from selecting background image/video to selecting audio and times.
 
 * **Implementation**  
+A media player was added to allow the user to select different audio synced with an image/video background by selecting the previous or next buttons.
 
+The audio and video can be paused should the user need this option.
 
 * **Test**
 
@@ -206,7 +210,18 @@ To create a responsive website that works across various devices.
 
 * **Verdict** 
 
-#### User story:
+## **Bugs**
+
+### **Play button works only when double clicked**
+
+* **Bug**  
+The play button doesn't work on the first click. It will only work when clicked twice.
+
+* **Fix**       
+w.i.p ...
+
+* **Verdict**    
+...
 
 ## **Deployment**
 
