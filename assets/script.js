@@ -1,9 +1,8 @@
 const mediaPlayerRef = document.querySelector("#mediaPlayer");
-const songRef = document.querySelector(".song");
+const audioRef = document.querySelector("#audio");
 const play = document.querySelector(".play");
 const back = document.querySelector(".back");
 const forward = document.querySelector(".forward");
-const audioRef = document.querySelector("#audio");
 const countdown = document.querySelector('.timer-countdown');
 const timeSelector = document.querySelectorAll('.time-selector button');
 const bgImageRef = document.querySelector("#bg-img");
@@ -98,15 +97,15 @@ play.addEventListener("click", function() {
 		bgImageRef.play();
 	}
 	// Animate the Countdown Timer
-	songRef.ontimeupdate = function() {
-		let currentTime = songRef.currentTime;
+	audioRef.ontimeupdate = function() {
+		let currentTime = audioRef.currentTime;
 		let elapsed = defaultDuration - currentTime;
 		let seconds = Math.floor(elapsed % 60);
 		let minutes = Math.floor(elapsed / 60);
 		countdown.innerHTML = `${minutes}:${seconds <10? '0': '' }${seconds}`;
 		if(currentTime >= defaultDuration) {
-			songRef.pause();
-			songRef.currentTime = 0;
+			audioRef.pause();
+			audioRef.currentTime = 0;
 			play.querySelector('i.fas').classList.add('fa-play');
 			play.querySelector('i.fas').classList.remove('fa-pause');
 			bgImageRef.pause();
