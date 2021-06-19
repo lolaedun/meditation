@@ -137,7 +137,7 @@ Sound can be muted on users device if they would prefer a quiet meditation or ar
 - [Imgbb](https://imgbb.com) to store external images for this project that were not entered into the database.
 - [Balsamiq](https://balsamiq.com/) to create the wireframes for this project.
 - [Canva](https://www.canva.com/) to create graphics and images.
-- [Am I Responsive](http://ami.responsivedesign.is/)to create the website mockups
+- [Am I Responsive](http://ami.responsivedesign.is/) to create the website mockups
 
 ### Libraries
 
