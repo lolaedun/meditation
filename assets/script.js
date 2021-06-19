@@ -46,7 +46,7 @@ loadSong(songs[songIndex]);
 function loadSong(songs) {
 	audioRef.src = `assets/sounds/${songs.tune}.mp3`;
 	affirmationRef.innerText = songs.affirmation;
-	bgImageRef.src = `assets/bg-media/${songs.backgroundImageName}.mp4`;
+	bgImageRef.src = `assets/videos/${songs.backgroundImageName}.mp4`;
 }
 //Play music
 function playSong() {
