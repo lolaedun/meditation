@@ -186,13 +186,17 @@ A media player was added to allow the user to select different audio synced with
 The audio and video can be paused should the user need this option.
 
 * **Test**
+The media player buttons (previous & next) were tested to select background image/video.
 
+The play and pause buttons were also tested to make sure they work.
 
 * **Result**
-
+Previous and Next buttons move easily through the various background image/video options.
+Play button works only when clicked twice and plays a new soundtrack for meditation.
+Pause button pauses both audio and video playback.
 
 * **Verdict**  
-
+All media buttons are working as expected except for the play buttton which has been reported in the bugs section. 
 #### User story:
 As a user, I would like to be able to have access to meditation regardless of the device i'm using.
 
