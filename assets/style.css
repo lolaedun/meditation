@@ -6,10 +6,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-#logo{ 
+/*#logo{ 
     position: fixed;
     padding: 3px; 
-} 
+    max-width: 20em;
+    max-height:20em;
+} */
 
 #bg-img {
     
