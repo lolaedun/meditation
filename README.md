@@ -221,6 +221,16 @@ Site is responsive and working as expected.
 
 [HTML Validation](assets/validations/html-validation.png)
 
+[CSS Validation](assets/validations/css-validation.png)
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+      
+
 ## **Bugs**
 
 ### **Play button works only when clicked twice**
