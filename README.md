@@ -217,7 +217,9 @@ All working and displaying as expected.
 * **Verdict** 
 Site is responsive and working as expected.
 
+## **Validation Reports**
 
+[HTML Validation](assets/validations/html-validation.png)
 
 ## **Bugs**
 
