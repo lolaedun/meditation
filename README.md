@@ -58,7 +58,9 @@ view here:
 
 ### Fonts
 
-- **Pacifico** as the headline text and **Roboto** as body text. I went for very simple and easy to read fonts.
+- **Pacifico** as the headline text brings a sense of fun with it's brushscript text
+
+-  **Roboto** as body text adds a friendly tone and pairs well with Pacifico. It adds a very simple and easy to read style.
 
 ### Icons
 
