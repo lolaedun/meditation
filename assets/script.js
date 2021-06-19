@@ -3,8 +3,8 @@ const audioRef = document.querySelector("#audio");
 const play = document.querySelector("#play");
 const back = document.querySelector("#back");
 const forward = document.querySelector("#forward");
-const countdown = document.querySelector('.timer-countdown');
-const timeSelector = document.querySelectorAll('.time-selector button');
+const countdown = document.querySelector('#timerCountdown');
+const timeSelector = document.querySelectorAll('#timeSelect button');
 const bgImageRef = document.querySelector("#bg-img");
 const affirmationRef = document.querySelector("#affirmation");
 
