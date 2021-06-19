@@ -171,7 +171,7 @@ I created 3 simple buttons that highlight on hover. These buttons trigger the ti
     10 min timer pauses when music ends on a shorter track (noticable on 2nd page). It works with no issues on a longer track.
 
 * **Verdict**  
-Shorter audio tracks have been replaced with longer tracks and countdown timer works to the full length selected.
+Shorter audio tracks have been replaced with longer tracks and countdown timer works to the full length selected. I opted for this option instead of a loop to the timer as felt this might take away from the user experience during meditation.
 
 
 #### User story:
@@ -223,6 +223,16 @@ w.i.p ...
 * **Verdict**    
 ...
 
+### **Timer goes into minus at end of countdown**
+
+* **Bug**  
+The timer goes into minus at the end of meditation for a split second before resetting to zero.
+
+* **Fix**       
+w.i.p ...
+
+* **Verdict**    
+...
 ## **Deployment**
 
 This project was deployed via GitHub by executing the following steps.
