@@ -8,6 +8,8 @@ This is a family friendly meditation/affirmation site designed for both adults a
 
 In those moments when you or your children are feeling off balance and off kilter with life. Taking two minutes out of the day can really make a difference.
 
+I was inspired to create this website as I am a big advocate for mental health and wellness. I have found meditation and mindfulness to be a great support for me in my personal life during challenging and difficult times.
+
 Thank you for visiting my project!  
 If you have any feedback or questions, head over to my GitHub contact details and feel free to reach out to me.
 
