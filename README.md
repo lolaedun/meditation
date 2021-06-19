@@ -171,7 +171,7 @@ I created 3 simple buttons that highlight on hover. These buttons trigger the ti
     10 min timer pauses when music ends on a shorter track (noticable on 2nd page). It works with no issues on a longer track.
 
 * **Verdict**  
-
+Shorter audio tracks have been replaced with longer tracks and countdown timer works to the full length selected.
 #### User story:
 As a user, I would like to set my meditation/affirmation environment to suit my needs.
 
