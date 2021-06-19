@@ -62,6 +62,11 @@ view here:
 
 media player buttons, toggle switches, button icons.
 
+### Logo 
+
+I designed a simple logo to not distract the user during meditation and for branding purposes.
+![Logo](assets/meditation-logo.png)
+
 ### Colours Mood board and Mockups
 
 - Pastel, soft colours, relaxing imagery, texture, nature, movement.
