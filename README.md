@@ -239,10 +239,10 @@ Site is responsive and working as expected.
 The play button doesn't work on the first click. It will only work when clicked twice.
 
 * **Fix**       
-w.i.p ...
+changed the media player class in js file to a new id name as it was conflicting with css styling under the same name.
 
 * **Verdict**    
-...
+Play button works with single click once page has fully loaded.
 
 ### **Timer goes into minus at end of countdown**
 

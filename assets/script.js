@@ -1,4 +1,4 @@
-const mediaPlayerRef = document.querySelector(".media-player");
+const mediaPlayerRef = document.querySelector("#mediaPlayer");
 const songRef = document.querySelector(".song");
 const play = document.querySelector(".play");
 const back = document.querySelector(".back");
