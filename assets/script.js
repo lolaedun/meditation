@@ -40,7 +40,7 @@ const songs = [{
 	backgroundImageName: 'meditation-video3',
 	affirmation: 'I DESERVE TO BE HAPPY',
 }, ];
-//Load music details to the DOM
+
 loadSong(songs[songIndex]);
 //update Music info
 function loadSong(songs) {
@@ -84,7 +84,7 @@ function NextSound() {
 	play.querySelector('i.fas').classList.add('fa-play');
 	bgImageRef.pause();
 }
-//Meditation Duration
+
 let defaultDuration = 600;
 //Event Listeners
 // EL - Play Music
@@ -118,7 +118,7 @@ back.addEventListener("click", PrevSound);
 forward.addEventListener("click", NextSound);
 // select time duration for meditation
 timeSelector.forEach(option => {
-	option.addEventListener("click", function() { //event listener for time selector buttons
+	option.addEventListener("click", function() { 
 		defaultDuration = this.getAttribute("data-time");
 		let displayMins = Math.floor(defaultDuration / 60);
 		let displaySecs = Math.floor(defaultDuration % 60);
