@@ -197,6 +197,8 @@ Pause button pauses both audio and video playback.
 
 * **Verdict**  
 All media buttons are working as expected except for the play buttton which has been reported in the bugs section. 
+
+
 #### User story:
 As a user, I would like to be able to have access to meditation regardless of the device i'm using.
 
@@ -204,15 +206,18 @@ As a user, I would like to be able to have access to meditation regardless of th
 To create a responsive website that works across various devices.
 
 * **Implementation**  
-
+I have added media queries to various screen sizes to improve user experience.
 
 * **Test**
-
+Tested various screen sizes and phone devices.
 
 * **Result**
-
+All working and displaying as expected.
 
 * **Verdict** 
+Site is responsive and working as expected.
+
+
 
 ## **Bugs**
 
@@ -230,13 +235,15 @@ w.i.p ...
 ### **Timer goes into minus at end of countdown**
 
 * **Bug**  
-The timer goes into minus at the end of meditation for a split second before resetting to zero.
+The timer goes into minus at the end of meditation for a split second before resetting to zero. This only seems to happen on a laptop device. Smaller devices don't seem to be affected.
 
 * **Fix**       
 w.i.p ...
 
 * **Verdict**    
 ...
+
+
 ## **Deployment**
 
 This project was deployed via GitHub by executing the following steps.
