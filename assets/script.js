@@ -23,7 +23,7 @@ let songIndex = 6;
 const songs = [
 
     {
-        tune: 'bensound-relaxing',
+        tune: 'Mindfulness-Meditation',
         backgroundImageName: 'meditation-video1',
         affirmation: 'MY NEEDS ARE IMPORTANT',
     },
@@ -47,20 +47,20 @@ const songs = [
     },
 
     {
-        tune: 'pleasing',
+        tune: 'Abundance',
         backgroundImageName: 'meditation-video5',
         affirmation: 'I ALWAYS FIND HOPE',
     },
 
      {
-        tune: 'release',
+        tune: 'Chill-Pill',
         backgroundImageName: 'meditation-video8',
         affirmation: 'I CHOOSE TO FEEL PEACEFUL',
     },
 
 
     {
-        tune: 'Healing-Water-David-Renda',
+        tune: 'HeartWave',
         backgroundImageName: 'meditation-video3',
         affirmation: 'I DESERVE TO BE HAPPY',
     },
