@@ -1,131 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap');
 
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 #bg-img {
-    
-    position: fixed;
-    min-width: 100vh;
-    min-height: 100vh;
-    z-index: -1;
+	position: fixed;
+	min-width: 100vh;
+	min-height: 100vh;
+	z-index: -1;
 }
-
 
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
 }
 
-
-button{
-    background-color: transparent;
-    border: 0;
-    color: #ffffff;
+button {
+	background-color: transparent;
+	border: 0;
+	color: #ffffff;
 }
 
 .h3, h3 {
-    font-size: 2em;
+	font-size: 2em;
 }
 
-
 .time-selector {
-    
-    align-items: center;
-    justify-content: center;
- 
-  
+	align-items: center;
+	justify-content: center;
 }
 
 .btn-outline-info {
-    color: #ffffff;
-    border-color: #ffffff;
-    margin: 1em;
+	color: #ffffff;
+	border-color: #ffffff;
+	margin: 1em;
 }
 
 .media-player {
-    
-    display: flex;
-    flex-direction: row;
-    font-size: 40px;
-    align-items: center;
-    padding-top: 6em;
-    justify-content: space-evenly;
+	display: flex;
+	flex-direction: row;
+	font-size: 40px;
+	align-items: center;
+	padding-top: 6em;
+	justify-content: space-evenly;
 }
 
 .timer-countdown {
-    position: relative;
-    font-size: 50px;
+	position: relative;
+	font-size: 50px;
 }
 
-
-
 #affirmation {
-    position: relative;
-    top: 27vh;
-    
+	position: relative;
+	top: 27vh;
 }
 
 .affirmation {
-    font-family: 'Pacifico', cursive;
-    font-size: 30px;
-    position: relative;
-    top: 27vh;
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	position: relative;
+	top: 27vh;
 }
 
 /* Media Queries*/
 
 @media (min-width: 575.98px) {
-   
 }
-@media (min-width: 768px) { 
-    .media-player {
-    
-    padding-top: 9em;
-    }
-     .affirmation {
-    
-    left: 55px;
-}
- }
 
- @media (min-width: 1024px) { 
-    .media-player {
-    
-    padding-top: 11em;
-    }
-    .affirmation {
-    
-    font-size: 40px;
-}
-    #affirmation {
-    
-    font-size: 2.6em;
-    } 
+@media (min-width: 768px) {
+ 
+	.media-player {
+		padding-top: 9em;
+	}
 
-    .btn-outline-info {
-    
-    margin: 2em;
-    }
-
- }
-
- @media (min-width: 1200px) { 
-     #affirmation {
-    font-size: 2.1em;
-    right: 68px;
+	.affirmation {
+		left: 55px;
+	}
 }
-    .affirmation {
-    
-    left: 167px;
-    font-size: 32px;
+
+@media (min-width: 1024px) {
+ 
+	.media-player {
+		padding-top: 11em;
+	}
+
+	.affirmation {
+		font-size: 40px;
+	}
+
+	#affirmation {
+		font-size: 2.6em;
+	}
+
+	.btn-outline-info {
+		margin: 2em;
+	}
 }
-    .media-player {
-    
-    padding-top: 8em;
-    }
- }
+
+@media (min-width: 1200px) {
+ 
+	#affirmation {
+		font-size: 2.1em;
+		right: 68px;
+	}
+
+	.affirmation {
+		left: 167px;
+		font-size: 32px;
+	}
+
+	.media-player {
+		padding-top: 8em;
+	}
+}
