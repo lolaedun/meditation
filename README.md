@@ -130,6 +130,7 @@ Sound can be muted on users device if they would prefer a quiet meditation or ar
 - [FontAwesome](https://www.bootstrapcdn.com/fontawesome/) to provide icons for the website.
 - [Google Fonts](https://fonts.google.com/) to style the website fonts.
 - [Canva](https://www.canva.com/) to design mood board and video for the website.
+- [ColourLovers](https://www.colourlovers.com/palettes) to find inspiration for my colour palette.
 
 ### Languages
 - This project uses HTML, CSS and JavaScript programming languages.
@@ -293,8 +294,8 @@ I have used the following websites to gather ideas, information, background imag
 * [I awake](https://www.iawaketechnologies.com/)
 
 
- 
+### Acknowledgements
 
-I have used [Canva](https://www.canva.com/) to create all my images and graphics.
-I also used [ColourLovers](https://www.colourlovers.com/palettes) to find inspiration for my colour palette.
+First of all, I would like to thank my mentor Simen ([Eventyret_mentor](https://github.com/Eventyret)) for guiding me throughout this project. He helped me to break down my project into manageable chunks and saved me from tearing my hair out a few times!
 
+I also want to thank the slack community for jumping in to provide feedback on my project. 
