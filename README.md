@@ -113,7 +113,7 @@ Sound can be muted on users device if they would prefer a quiet meditation or ar
 
 - child mode
 - Social share button
-- audio fade on pause or at end of timer
+- add gong sound at the end of meditation or audio fade
 
 
 ## Technologies Used
