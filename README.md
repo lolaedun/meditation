@@ -221,7 +221,7 @@ Site is responsive and working as expected.
 
 ## **Bugs**
 
-### **Play button works only when double clicked**
+### **Play button works only when clicked twice**
 
 * **Bug**  
 The play button doesn't work on the first click. It will only work when clicked twice.
