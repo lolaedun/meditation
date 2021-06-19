@@ -1,8 +1,8 @@
 const mediaPlayerRef = document.querySelector("#mediaPlayer");
 const audioRef = document.querySelector("#audio");
-const play = document.querySelector(".play");
-const back = document.querySelector(".back");
-const forward = document.querySelector(".forward");
+const play = document.querySelector("#play");
+const back = document.querySelector("#back");
+const forward = document.querySelector("#forward");
 const countdown = document.querySelector('.timer-countdown');
 const timeSelector = document.querySelectorAll('.time-selector button');
 const bgImageRef = document.querySelector("#bg-img");
