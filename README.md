@@ -280,7 +280,7 @@ There is a white line on the right hand side of the screen
 change min width and height of video (#bg-img) to 100% instead of 100vh
 
 * **Verdict**    
-...
+Video displays full width on desktop screensize.
 
 ## **Deployment**
 
@@ -323,4 +323,4 @@ I have used the following websites to gather ideas, information, background imag
 
 First of all, I would like to thank my mentor Simen ([Eventyret_mentor](https://github.com/Eventyret)) for guiding me throughout this project. He helped me to break down my project into manageable chunks and saved me from tearing my hair out a few times!
 
-I also want to thank the slack community for jumping in to provide feedback on my project. 
+I also want to thank the slack community for jumping in to provide feedback on my project. Special shout out to: Nick Lennon and Mike Avgeros for helping to test out my site.
