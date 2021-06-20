@@ -271,6 +271,16 @@ w.i.p ...
 * **Verdict**    
 ...
 
+### **White line on the right side of desktop view**
+
+* **Bug**  
+There is a white line on the right hand side of the screen
+
+* **Fix**       
+change min width and height of video (#bg-img) to 100% instead of 100vh
+
+* **Verdict**    
+...
 
 ## **Deployment**
 

@@ -8,8 +8,8 @@
 
 #bg-img {
 	position: fixed;
-	min-width: 100vh;
-	min-height: 100vh;
+	min-width: 100%;
+	min-height: 100%;
 	z-index: -1;
 }
 
