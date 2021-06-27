@@ -24,6 +24,10 @@ button {
 	color: #ffffff;
 }
 
+.navbar-brand img {
+    width: 6rem;
+}
+
 .h3, h3 {
 	font-size: 2em;
 }
