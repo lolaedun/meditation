@@ -140,16 +140,16 @@ This project uses the following programming languages:
 - [GitHub](https://github.com/) to store and share all project code remotely.
 - [Imgbb](https://imgbb.com) to store external images for this project that were not entered into the database.
 - [Balsamiq](https://balsamiq.com/) to create the wireframes for this project.
-- [Canva](https://www.canva.com/) to create graphics and images.
 - [Am I Responsive](http://ami.responsivedesign.is/) to create the website mockups
+- [Canva](https://www.canva.com/) to design mood board, graphics and video for the website.
+- [ColourLovers](https://www.colourlovers.com/palettes) to find inspiration for my colour palette.
 
 ### Libraries
 
 - [Bootstrap](https://www.bootstrapcdn.com/) to simplify the structure of the website and make the website responsive easily.
 - [FontAwesome](https://www.bootstrapcdn.com/fontawesome/) to provide icons for the website.
 - [Google Fonts](https://fonts.google.com/) to style the website fonts.
-- [Canva](https://www.canva.com/) to design mood board and video for the website.
-- [ColourLovers](https://www.colourlovers.com/palettes) to find inspiration for my colour palette.
+
 
 
 
@@ -158,7 +158,7 @@ This project uses the following programming languages:
 
 
 #### User story:
-As a user, I would like to choose timing of meditation/affirmation.
+**As a user, I would like to choose timing of meditation/affirmation.**
 
 * **Plan**  
 My plan is to create 3 buttons for the user to choose various time options from.
@@ -194,7 +194,7 @@ Shorter audio tracks have been replaced with longer tracks and countdown timer w
 
 
 #### User story:
-As a user, I would like to set my meditation/affirmation environment to suit my needs.
+**As a user, I would like to set my meditation/affirmation environment to suit my needs.**
 
 * **Plan**  
 My plan is to create simple and quick options for the user to create a meditation space that suits them from selecting background image/video to selecting audio and times.
@@ -219,7 +219,7 @@ All media buttons are working as expected except for the play buttton which has 
 
 
 #### User story:
-As a user, I would like to be able to have access to meditation regardless of the device i'm using.
+**As a user, I would like to be able to have access to meditation regardless of the device i'm using.**
 
 * **Plan**  
 To create a responsive website that works across various devices.
