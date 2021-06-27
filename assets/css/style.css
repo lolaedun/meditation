@@ -75,9 +75,6 @@ button {
 
 /* Media Queries*/
 
-@media (min-width: 575.98px) {
-}
-
 @media (min-width: 768px) {
  
 	.media-player {
