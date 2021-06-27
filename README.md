@@ -269,10 +269,10 @@ Play button works with single click once page has fully loaded.
 The timer goes into minus at the end of meditation for a split second before resetting to zero. This only seems to happen on a laptop device. Smaller devices don't seem to be affected.
 
 * **Fix**       
-w.i.p ...
+I haven't yet been able to find what could be causing this problem.
 
 * **Verdict**    
-...
+Yet to be resolved.
 
 ### **White line on the right side of desktop view**
 
