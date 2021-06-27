@@ -116,7 +116,7 @@ playBtnRef.addEventListener("click", function() {
 backBtnRef.addEventListener("click", PrevSound);
 forwardBtnRef.addEventListener("click", NextSound);
 // selecting time duration for meditation
-timeSelectorRef.forEach(option => {
+timeSelectorRef.forEach(function (option) {
 	option.addEventListener("click", function() { 
 		defaultDuration = this.getAttribute("data-time");
 		let displayMins = Math.floor(defaultDuration / 60);

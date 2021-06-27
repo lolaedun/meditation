@@ -21,12 +21,14 @@
 }
  #affirmation {
      position: relative;
+     text-align: center;
      top: 27vh;
 }
  #affirmation-title {
      font-family: 'Pacifico', cursive;
      font-size: 2rem;
      position: relative;
+     text-align: center;
      top: 27vh;
 }
  .fa, .fas {
@@ -65,7 +67,7 @@
          padding-top: 56%;
     }
      #affirmation-title {
-         left: 4rem;
+         left: 3rem;
     }
 }
  @media (min-width: 1024px) {
@@ -74,7 +76,7 @@
     }
      #affirmation-title {
          font-size: 2rem;
-         left: 9rem;
+         left: 4rem;
     }
      #affirmation {
          font-size: 2rem;
@@ -83,4 +85,7 @@
      .btn-outline-info {
          margin: 2em;
     }
+    h3#affirmation-title {
+    text-align: end;
+}
 }
