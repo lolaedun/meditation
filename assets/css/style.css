@@ -58,13 +58,14 @@ button {
 	margin: 1rem;
 }
 
+
 .media-player {
-	display: flex;
-	flex-direction: row;
-	font-size: 40px;
-	align-items: center;
-	padding-top: 6em;
-	justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    align-items: center;
+    padding-top: 16rem;
+    justify-content: space-evenly;
 }
 
 .timer-countdown {
@@ -79,7 +80,7 @@ button {
 @media (min-width: 768px) {
  
 	.media-player {
-		padding-top: 9em;
+		padding-top: 20rem;
 	}
 
 	#affirmation-title {
@@ -90,7 +91,7 @@ button {
 @media (min-width: 1024px) {
  
 	.media-player {
-		padding-top: 11em;
+		padding-top: 27rem;
 	}
 
 	#affirmation-title {
@@ -98,7 +99,7 @@ button {
 	}
 
 	#affirmation {
-		font-size: 2.6em;
+		font-size: 3rem;
 	}
 
 	.btn-outline-info {
