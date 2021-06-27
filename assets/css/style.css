@@ -80,7 +80,8 @@
     }
      #affirmation {
          font-size: 2rem;
-         left: -1rem;
+         left: 4rem;
+         text-align: left;
     }
      .btn-outline-info {
          margin: 2em;
