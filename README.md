@@ -80,7 +80,7 @@ The white logo matches the colour of the fonts and buttons used on the website.
 
 - Pastel, soft colours, relaxing imagery, texture, nature, movement.
 
-![Mood board](wireframes/Meditation-mood-board.png)
+![Mood board](wireframes/meditation-mood-board.png)
 
 # Features
 ## Existing Features
