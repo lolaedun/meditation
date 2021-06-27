@@ -165,7 +165,7 @@ My plan is to create 3 buttons for the user to choose various time options from.
 
 * **Implementation**  
 I created 3 simple buttons that highlight on hover. These buttons trigger the timer countdown when clicked.
-
+![time select](wireframes/screenshots/ux-timing.png)
 * **Test**
 
     When I hover over the timer selector buttons they get highlighted to make it easier for the user to read over the video.
