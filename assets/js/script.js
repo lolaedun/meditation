@@ -3,7 +3,7 @@ const audioRef = document.querySelector("#audio");
 const playBtnRef = document.querySelector("#play");
 const backBtnRef = document.querySelector("#back");
 const forwardBtnRef = document.querySelector("#forward");
-const countdown = document.querySelector('#timerCountdown');
+const countdownRef = document.querySelector('#timerCountdown');
 const timeSelector = document.querySelectorAll('#timeSelect button');
 const bgImageRef = document.querySelector("#bg-img");
 const affirmationRef = document.querySelector("#affirmation");
@@ -96,13 +96,13 @@ playBtnRef.addEventListener("click", function() {
 		playSong();
 		bgImageRef.play();
 	}
-	// Animate the Countdown Timer
+	// Animating Countdown Timer
 	audioRef.ontimeupdate = function() {
 		let currentTime = audioRef.currentTime;
 		let elapsed = defaultDuration - currentTime;
 		let seconds = Math.floor(elapsed % 60);
 		let minutes = Math.floor(elapsed / 60);
-		countdown.innerHTML = `${minutes}:${seconds <10? '0': '' }${seconds}`;
+		countdownRef.innerHTML = `${minutes}:${seconds <10? '0': '' }${seconds}`;
 		if(currentTime >= defaultDuration) {
 			audioRef.pause();
 			audioRef.currentTime = 0;
@@ -115,7 +115,7 @@ playBtnRef.addEventListener("click", function() {
 //EL - Change Meditation Music
 backBtnRef.addEventListener("click", PrevSound);
 forwardBtnRef.addEventListener("click", NextSound);
-// select time duration for meditation
+// selecting time duration for meditation
 timeSelector.forEach(option => {
 	option.addEventListener("click", function() { 
 		defaultDuration = this.getAttribute("data-time");
@@ -124,6 +124,6 @@ timeSelector.forEach(option => {
 		if(displaySecs < 10) {
 			displaySecs = "0" + displaySecs;
 		}
-		countdown.innerHTML = `${displayMins}:${displaySecs}`;
+		countdownRef.innerHTML = `${displayMins}:${displaySecs}`;
 	});
 });
