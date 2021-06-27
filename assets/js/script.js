@@ -4,7 +4,7 @@ const playBtnRef = document.querySelector("#play");
 const backBtnRef = document.querySelector("#back");
 const forwardBtnRef = document.querySelector("#forward");
 const countdownRef = document.querySelector('#timerCountdown');
-const timeSelector = document.querySelectorAll('#timeSelect button');
+const timeSelectorRef = document.querySelectorAll('#timeSelect button');
 const bgImageRef = document.querySelector("#bg-img");
 const affirmationRef = document.querySelector("#affirmation");
 
@@ -116,7 +116,7 @@ playBtnRef.addEventListener("click", function() {
 backBtnRef.addEventListener("click", PrevSound);
 forwardBtnRef.addEventListener("click", NextSound);
 // selecting time duration for meditation
-timeSelector.forEach(option => {
+timeSelectorRef.forEach(option => {
 	option.addEventListener("click", function() { 
 		defaultDuration = this.getAttribute("data-time");
 		let displayMins = Math.floor(defaultDuration / 60);
