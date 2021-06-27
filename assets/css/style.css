@@ -77,6 +77,21 @@ button {
 
 /* Media Queries*/
 
+@media (min-width: 320px) {
+ 
+	.media-player {
+		padding-top: 62%;
+	}
+}
+
+@media (min-width: 375px) {
+ 
+	.media-player {
+		padding-top: 72%;
+	}
+}
+
+
 @media (min-width: 768px) {
  
 	.media-player {
