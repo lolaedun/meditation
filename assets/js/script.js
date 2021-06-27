@@ -1,7 +1,7 @@
 const mediaPlayerRef = document.querySelector("#mediaPlayer");
 const audioRef = document.querySelector("#audio");
 const playBtnRef = document.querySelector("#play");
-const back = document.querySelector("#back");
+const backBtnRef = document.querySelector("#back");
 const forward = document.querySelector("#forward");
 const countdown = document.querySelector('#timerCountdown');
 const timeSelector = document.querySelectorAll('#timeSelect button');
@@ -113,7 +113,7 @@ playBtnRef.addEventListener("click", function() {
 	};
 });
 //EL - Change Meditation Music
-back.addEventListener("click", PrevSound);
+backBtnRef.addEventListener("click", PrevSound);
 forward.addEventListener("click", NextSound);
 // select time duration for meditation
 timeSelector.forEach(option => {
