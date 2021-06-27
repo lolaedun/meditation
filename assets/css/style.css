@@ -31,7 +31,7 @@ button {
 
 #affirmation-title {
 	font-family: 'Pacifico', cursive;
-	font-size: 30px;
+	font-size: 2rem;
 	position: relative;
 	top: 27vh;
 }
@@ -86,7 +86,7 @@ button {
 		left: 55px;
 	}
 }
-
+/*
 @media (min-width: 1024px) {
  
 	.media-player {
