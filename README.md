@@ -239,6 +239,8 @@ Site is responsive and working as expected.
 
 [CSS Validation](wireframes/validations/css-validation.png)
 
+[JS Validation](wireframes/validations/js-validation.png)
+
       
 
 ## **Bugs**

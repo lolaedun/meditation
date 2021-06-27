@@ -8,7 +8,9 @@ const timeSelectorRef = document.querySelectorAll('#timeSelect button');
 const bgImageRef = document.querySelector("#bg-img");
 const affirmationRef = document.querySelector("#affirmation");
 
-//keep track of sounds
+/**
+ * Tracking affirmation pages
+ */
 let songIndex = 6;
 const songs = [{
 	tune: 'Mindfulness-Meditation',
@@ -41,27 +43,31 @@ const songs = [{
 }, ];
 
 loadSong(songs[songIndex]);
-//update Music info
+/**
+ * This will update the meditation page
+ */
 function loadSong(songs) {
 	audioRef.src = `assets/sounds/${songs.tune}.mp3`;
 	affirmationRef.innerText = songs.affirmation;
 	bgImageRef.src = `assets/videos/${songs.backgroundImageName}.mp4`;
 }
-//Play music
+/**
+ * Media player functions
+ */
 function playSong() {
 	mediaPlayerRef.classList.add('play');
 	playBtnRef.querySelector('i.fas').classList.remove('fa-play');
 	playBtnRef.querySelector('i.fas').classList.add('fa-pause');
 	audioRef.play();
 }
-//Pause music
+
 function pauseSong() {
 	mediaPlayerRef.classList.remove('play');
 	playBtnRef.querySelector('i.fas').classList.remove('fa-pause');
 	playBtnRef.querySelector('i.fas').classList.add('fa-play');
 	audioRef.pause();
 }
-//Prev music
+
 function PrevSound() {
 	songIndex--;
 	if(songIndex < 0) {
@@ -72,7 +78,7 @@ function PrevSound() {
 	playBtnRef.querySelector('i.fas').classList.add('fa-play');
 	bgImageRef.pause();
 }
-// Next music
+
 function NextSound() {
 	songIndex++;
 	if(songIndex > songs.length - 1) {
@@ -85,8 +91,10 @@ function NextSound() {
 }
 
 let defaultDuration = 600;
-//Event Listeners
-// EL - Play Music
+
+/**
+ * Event Listners - Media player and Countdown Timer
+ */
 playBtnRef.addEventListener("click", function() {
 	let nowPlaying = mediaPlayerRef.classList.contains('play');
 	if(nowPlaying) {
@@ -96,7 +104,7 @@ playBtnRef.addEventListener("click", function() {
 		playSong();
 		bgImageRef.play();
 	}
-	// Animating Countdown Timer
+	
 	audioRef.ontimeupdate = function() {
 		let currentTime = audioRef.currentTime;
 		let elapsed = defaultDuration - currentTime;
@@ -112,10 +120,12 @@ playBtnRef.addEventListener("click", function() {
 		}
 	};
 });
-//EL - Change Meditation Music
+
 backBtnRef.addEventListener("click", PrevSound);
 forwardBtnRef.addEventListener("click", NextSound);
-// selecting time duration for meditation
+/**
+ * This will change the countdown timer display based on user selections
+ */
 timeSelectorRef.forEach(function (option) {
 	option.addEventListener("click", function() { 
 		defaultDuration = this.getAttribute("data-time");
