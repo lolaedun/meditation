@@ -235,9 +235,9 @@ Site is responsive and working as expected.
 
 ## **Validation Reports**
 
-[HTML Validation](assets/validations/html-validation.png)
+[HTML Validation](wireframes/validations/html-validation.png)
 
-[CSS Validation](assets/validations/css-validation.png)
+[CSS Validation](wireframes/validations/css-validation.png)
 <p>
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px"
