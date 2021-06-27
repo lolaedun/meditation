@@ -1,110 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap');
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
 }
-
-body {
-	font-family: 'Roboto', sans-serif;
-	color: #ffffff;
+ body {
+     font-family: 'Roboto', sans-serif;
+     color: #ffffff;
 }
-
-button {
-	background-color: transparent;
-	border: 0;
-	color: #ffffff;
+ button {
+     background-color: transparent;
+     border: 0;
+     color: #ffffff;
 }
-
-#bg-img {
-	position: fixed;
-	min-width: 100%;
-	min-height: 100%;
-	z-index: -1;
+ #bg-img {
+     position: fixed;
+     min-width: 100%;
+     min-height: 100%;
+     z-index: -1;
 }
-
-#affirmation {
-	position: relative;
-	top: 27vh;
+ #affirmation {
+     position: relative;
+     top: 27vh;
 }
-
-#affirmation-title {
-	font-family: 'Pacifico', cursive;
-	font-size: 2rem;
-	position: relative;
-	top: 27vh;
+ #affirmation-title {
+     font-family: 'Pacifico', cursive;
+     font-size: 2rem;
+     position: relative;
+     top: 27vh;
 }
-.fa, .fas {
-    color: white;
+ .fa, .fas {
+     color: white;
 }
-
-.navbar-brand img {
-    width: 6rem;
+ .navbar-brand img {
+     width: 6rem;
 }
-
-h3,.h3 {
-	font-size: 2rem;
+ h3,.h3 {
+     font-size: 2rem;
 }
-
-.time-selector {
-	align-items: center;
-	justify-content: center;
+ .time-selector {
+     align-items: center;
+     justify-content: center;
 }
-
-.btn-outline-info {
-	color: #ffffff;
-	border-color: #ffffff;
-	margin: 1rem;
+ .btn-outline-info {
+     color: #ffffff;
+     border-color: #ffffff;
+     margin: 1rem;
 }
-
-
-.media-player {
-    display: flex;
-    flex-direction: row;
-    font-size: 2rem;
-    align-items: center;
-    padding-top: 100%;
-    justify-content: space-evenly;
+ .media-player {
+     display: flex;
+     flex-direction: row;
+     font-size: 2rem;
+     align-items: center;
+     padding-top: 100%;
+     justify-content: space-evenly;
 }
-
-.timer-countdown {
-	position: relative;
-	font-size: 3rem;
+ .timer-countdown {
+     position: relative;
+     font-size: 3rem;
 }
-
-
-
 /* Media Queries*/
-
-@media (min-width: 768px) {
- 
-	.media-player {
-		padding-top: 56%;
-	}
-
-	#affirmation-title {
-		left: 4rem;
-	}
+ @media (min-width: 768px) {
+     .media-player {
+         padding-top: 56%;
+    }
+     #affirmation-title {
+         left: 4rem;
+    }
 }
-
-@media (min-width: 1024px) {
- 
-	.media-player {
-		padding-top: 20rem;
-	}
-
-	#affirmation-title {
-        font-size: 2rem;
-        left: 11rem;
-	}
-
-	#affirmation {
-        font-size: 2rem;
-        left: -4rem;
-	}
-
-	.btn-outline-info {
-		margin: 2em;
-	}
+ @media (min-width: 1024px) {
+     .media-player {
+         padding-top: 23rem;
+    }
+     #affirmation-title {
+         font-size: 2rem;
+         left: 9rem;
+    }
+     #affirmation {
+         font-size: 2rem;
+         left: -1rem;
+    }
+     .btn-outline-info {
+         margin: 2em;
+    }
 }
