@@ -43,7 +43,7 @@ button {
     width: 6rem;
 }
 
-.h3, h3 {
+h3,.h3 {
 	font-size: 2rem;
 }
 
@@ -77,21 +77,6 @@ button {
 
 /* Media Queries*/
 
-@media (min-width: 320px) {
- 
-	.media-player {
-		padding-top: 62%;
-	}
-}
-
-@media (min-width: 375px) {
- 
-	.media-player {
-		padding-top: 72%;
-	}
-}
-
-
 @media (min-width: 768px) {
  
 	.media-player {
@@ -99,7 +84,7 @@ button {
 	}
 
 	#affirmation-title {
-		left: 55px;
+		left: 4rem;
 	}
 }
 
@@ -111,7 +96,7 @@ button {
 
 	#affirmation-title {
         font-size: 2rem;
-        left: 7rem;
+        left: 11rem;
 	}
 
 	#affirmation {
