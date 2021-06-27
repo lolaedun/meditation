@@ -1,6 +1,6 @@
 const mediaPlayerRef = document.querySelector("#mediaPlayer");
 const audioRef = document.querySelector("#audio");
-const play = document.querySelector("#play");
+const playBtnRef = document.querySelector("#play");
 const back = document.querySelector("#back");
 const forward = document.querySelector("#forward");
 const countdown = document.querySelector('#timerCountdown');
@@ -50,15 +50,15 @@ function loadSong(songs) {
 //Play music
 function playSong() {
 	mediaPlayerRef.classList.add('play');
-	play.querySelector('i.fas').classList.remove('fa-play');
-	play.querySelector('i.fas').classList.add('fa-pause');
+	playBtnRef.querySelector('i.fas').classList.remove('fa-play');
+	playBtnRef.querySelector('i.fas').classList.add('fa-pause');
 	audioRef.play();
 }
 //Pause music
 function pauseSong() {
 	mediaPlayerRef.classList.remove('play');
-	play.querySelector('i.fas').classList.remove('fa-pause');
-	play.querySelector('i.fas').classList.add('fa-play');
+	playBtnRef.querySelector('i.fas').classList.remove('fa-pause');
+	playBtnRef.querySelector('i.fas').classList.add('fa-play');
 	audioRef.pause();
 }
 //Prev music
@@ -68,8 +68,8 @@ function PrevSound() {
 		songIndex = songs.length - 1;
 	}
 	loadSong(songs[songIndex]);
-	play.querySelector('i.fas').classList.remove('fa-pause');
-	play.querySelector('i.fas').classList.add('fa-play');
+	playBtnRef.querySelector('i.fas').classList.remove('fa-pause');
+	playBtnRef.querySelector('i.fas').classList.add('fa-play');
 	bgImageRef.pause();
 }
 // Next music
@@ -79,15 +79,15 @@ function NextSound() {
 		songIndex = 0;
 	}
 	loadSong(songs[songIndex]);
-	play.querySelector('i.fas').classList.remove('fa-pause');
-	play.querySelector('i.fas').classList.add('fa-play');
+	playBtnRef.querySelector('i.fas').classList.remove('fa-pause');
+	playBtnRef.querySelector('i.fas').classList.add('fa-play');
 	bgImageRef.pause();
 }
 
 let defaultDuration = 600;
 //Event Listeners
 // EL - Play Music
-play.addEventListener("click", function() {
+playBtnRef.addEventListener("click", function() {
 	let nowPlaying = mediaPlayerRef.classList.contains('play');
 	if(nowPlaying) {
 		pauseSong();
@@ -106,8 +106,8 @@ play.addEventListener("click", function() {
 		if(currentTime >= defaultDuration) {
 			audioRef.pause();
 			audioRef.currentTime = 0;
-			play.querySelector('i.fas').classList.add('fa-play');
-			play.querySelector('i.fas').classList.remove('fa-pause');
+			playBtnRef.querySelector('i.fas').classList.add('fa-play');
+			playBtnRef.querySelector('i.fas').classList.remove('fa-pause');
 			bgImageRef.pause();
 		}
 	};
