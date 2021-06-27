@@ -86,7 +86,7 @@
      .btn-outline-info {
          margin: 2em;
     }
-    h3#affirmation-title {
-    text-align: end;
-}
+     #affirmation-title {
+         text-align: end;
+    }
 }
