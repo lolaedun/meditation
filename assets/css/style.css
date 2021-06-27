@@ -6,13 +6,6 @@
 	box-sizing: border-box;
 }
 
-#bg-img {
-	position: fixed;
-	min-width: 100%;
-	min-height: 100%;
-	z-index: -1;
-}
-
 body {
 	font-family: 'Roboto', sans-serif;
 	color: #ffffff;
@@ -24,6 +17,24 @@ button {
 	color: #ffffff;
 }
 
+#bg-img {
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+
+#affirmation {
+	position: relative;
+	top: 27vh;
+}
+
+#affirmation-title {
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	position: relative;
+	top: 27vh;
+}
 .fa, .fas {
     color: white;
 }
@@ -61,17 +72,7 @@ button {
 	font-size: 50px;
 }
 
-#affirmation {
-	position: relative;
-	top: 27vh;
-}
 
-#affirmation-title {
-	font-family: 'Pacifico', cursive;
-	font-size: 30px;
-	position: relative;
-	top: 27vh;
-}
 
 /* Media Queries*/
 
