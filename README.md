@@ -74,7 +74,7 @@ The logo consists of a person sitting in a classic cross legged meditation pose 
 
 The white logo matches the colour of the fonts and buttons used on the website.
 
-![Logo](assets/images/meditation-logo.png)
+![Logo](assets/images/readme-logo.png)
 
 ### Colours Mood board and Mockups
 
