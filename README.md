@@ -190,7 +190,7 @@ I created 3 simple buttons that highlight on hover. These buttons trigger the ti
     10 min timer pauses when music ends on a shorter track (noticable on 2nd page). It works with no issues on a longer track.
 
 * **Verdict**  
-Shorter audio tracks have been replaced with longer tracks and countdown timer works to the full length selected. I opted for this option instead of a loop to the timer as felt this might take away from the user experience during meditation.
+Shorter audio tracks have been replaced with longer tracks and countdown timer works to the full length selected. I opted for this instead of looping the music to the timer as I felt this might take away from the user experience during meditation.
 
 
 #### User story:
@@ -204,6 +204,8 @@ A media player was added to allow the user to select different audio synced with
 
 The audio and video can be paused should the user need this option.
 
+![media player](wireframes/screenshots/media-player.png)
+![media player2](wireframes/screenshots/media-player2.png)
 * **Test**
 The media player buttons (previous & next) were tested to select background image/video.
 
