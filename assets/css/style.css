@@ -64,7 +64,7 @@ button {
     flex-direction: row;
     font-size: 2rem;
     align-items: center;
-    padding-top: 16rem;
+    padding-top: 100%;
     justify-content: space-evenly;
 }
 
@@ -80,40 +80,35 @@ button {
 @media (min-width: 768px) {
  
 	.media-player {
-		padding-top: 23rem;
+		padding-top: 56%;
 	}
 
 	#affirmation-title {
 		left: 55px;
 	}
 }
-
+/*
 @media (min-width: 1024px) {
  
 	.media-player {
-        padding-top: 30rem;
-        font-size: 3rem;
+		padding-top: 20rem;
 	}
 
-    .h3, h3 {
-    font-size: 2.5rem;
-    }
 	#affirmation-title {
-		left: 8rem;
+        font-size: 2rem;
+        left: 7rem;
 	}
-    #affirmation {
-    left: -2rem;
-    }
+
+	#affirmation {
+        font-size: 2.5rem;
+        left: -3rem;
+	}
+
 	.btn-outline-info {
-        margin: 2rem;
-        font-size: 1.5rem;
-    }
-    .timer-countdown {
-    position: relative;
-    font-size: 4rem;
-    }
+		margin: 2em;
+	}
 }
-/*
+
 @media (min-width: 1200px) {
  
 	#affirmation {
