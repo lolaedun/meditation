@@ -129,7 +129,11 @@ Sound can be muted on users device if they would prefer a quiet meditation or ar
 - Social share button
 - add gong sound at the end of meditation or audio fade
 
-
+### Languages
+This project uses the following programming languages:
+- HTML
+- CSS 
+- JavaScript
 ## Technologies Used
 
 - [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) to handle version control.
@@ -147,8 +151,7 @@ Sound can be muted on users device if they would prefer a quiet meditation or ar
 - [Canva](https://www.canva.com/) to design mood board and video for the website.
 - [ColourLovers](https://www.colourlovers.com/palettes) to find inspiration for my colour palette.
 
-### Languages
-- This project uses HTML, CSS and JavaScript programming languages.
+
 
 ## **Testing**
 
@@ -284,10 +287,12 @@ This project was deployed via GitHub by executing the following steps.
 After writing the code, committing and pushing it to GitHub:
 
 1. Navigate to the repository on github and click **Settings**.
-1. From there, go to the **Source section** within the Github Pages section.
+1. From there, go to the **Pages section** on the left hand tab within Github.
 1. Select **master branch** on the dropdown menu, and click save.
 1. Now the website is live on **https://lolaedun.github.io/meditation/**
 1. Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
+
+
 
 To run the project locally:
 
