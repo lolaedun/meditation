@@ -229,6 +229,8 @@ To create a responsive website that works across various devices.
 * **Implementation**  
 I have added media queries to various screen sizes to improve user experience.
 
+![Responsive1](wireframes/screenshots/responsive1.png)
+![Responsive2](wireframes/screenshots/responsive2.png)
 * **Test**
 Tested various screen sizes and phone devices.
 
