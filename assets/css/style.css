@@ -87,7 +87,7 @@ button {
 		left: 55px;
 	}
 }
-/*
+
 @media (min-width: 1024px) {
  
 	.media-player {
@@ -100,15 +100,15 @@ button {
 	}
 
 	#affirmation {
-        font-size: 2.5rem;
-        left: -3rem;
+        font-size: 2rem;
+        left: -4rem;
 	}
 
 	.btn-outline-info {
 		margin: 2em;
 	}
 }
-
+/*
 @media (min-width: 1200px) {
  
 	#affirmation {
