@@ -7,6 +7,7 @@
  body {
      font-family: 'Roboto', sans-serif;
      color: #ffffff;
+     
 }
  button {
      background-color: transparent;
@@ -44,6 +45,7 @@ a {
      position: relative;
      text-align: center;
      top: 27vh;
+     
 }
  #affirmation-title {
      font-family: 'Pacifico', cursive;
@@ -98,6 +100,7 @@ background-color: #dcfff9;
  .timer-countdown {
      position: relative;
      font-size: 3rem;
+     
 }
 /* Media Queries*/
  @media (min-width: 768px) {

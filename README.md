@@ -311,7 +311,10 @@ Video displays full width on desktop screensize.
 There is a blue outline box on mobile view after clicking on the question icon modal.
 
 * **Fix** 
-I set the a tag colour to transparent
+I set the a tag outline to none.
+
+* **Verdict**
+Blue outline box no longer shows on mobile device when clicked.
 
 ## **Deployment**
 
