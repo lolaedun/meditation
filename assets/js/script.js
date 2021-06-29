@@ -12,7 +12,7 @@ const muteRef = document.querySelector("#soundOn");
 /**
  * Tracking affirmation pages
  */
-let songIndex = 8;
+let songIndex = 9;
 const songs = [{
         tune: 'Yuval-Ron-Fire',
         backgroundImageName: 'meditation-video-10',
@@ -31,6 +31,11 @@ const songs = [{
         backgroundImageName: 'meditation-video7',
         affirmation: 'I CAN BUILD TRUST',
     }, {
+        tune: 'Serenity',
+        backgroundImageName: 'meditation-video13',
+        affirmation: 'OM... SHANTI, SHANTI',
+    }, 
+        {
         tune: 'india',
         backgroundImageName: 'meditation-video9',
         affirmation: 'I CAN PAUSE AND BEGIN AGAIN',
@@ -63,7 +68,7 @@ function loadSong(songs) {
     bgImageRef.src = `assets/videos/${songs.backgroundImageName}.mp4`;
 }
 /**
- * Media player functions
+ * Media player and Sound functions
  */
 function playSong() {
     mediaPlayerRef.classList.add('play');
@@ -119,7 +124,7 @@ function NextSound() {
 let defaultDuration = 600;
 
 /**
- * Event Listners - Media player and Countdown Timer
+ * Event Listners 
  */
 playBtnRef.addEventListener("click", function() {
     let nowPlaying = mediaPlayerRef.classList.contains('play');
