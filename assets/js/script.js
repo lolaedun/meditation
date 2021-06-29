@@ -7,6 +7,7 @@ const countdownRef = document.querySelector('#timerCountdown');
 const timeSelectorRef = document.querySelectorAll('#timeSelect button');
 const bgImageRef = document.querySelector("#bg-img");
 const affirmationRef = document.querySelector("#affirmation");
+const muteRef = document.querySelector("#soundOn");
 
 /**
  * Tracking affirmation pages
@@ -68,6 +69,21 @@ function pauseSong() {
 	audioRef.pause();
 }
 
+function muteSong(){
+    mediaPlayerRef.classList.add('play');
+    muteRef.querySelector('i.fas').classList.remove("fa-volume-up");
+    muteRef.querySelector('i.fas').classList.add("fa-volume-mute");
+    audioRef.muted = true;
+}
+
+
+function unMuteSong(){
+    mediaPlayerRef.classList.remove('play');
+    muteRef.querySelector('i.fas').classList.add("fa-volume-up");
+    muteRef.querySelector('i.fas').classList.remove("fa-volume-mute");
+    audioRef.muted = false;
+}
+
 function PrevSound() {
 	songIndex--;
 	if(songIndex < 0) {
@@ -120,7 +136,15 @@ playBtnRef.addEventListener("click", function() {
 		}
 	};
 });
-
+muteRef.addEventListener("click", function(){
+    let soundOn = mediaPlayerRef.classList.contains('play');
+        if(soundOn) {
+            unMuteSong();
+        } else {
+            muteSong();
+            
+        }
+});
 backBtnRef.addEventListener("click", PrevSound);
 forwardBtnRef.addEventListener("click", NextSound);
 /**
