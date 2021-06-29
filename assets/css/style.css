@@ -14,7 +14,7 @@
      color: #ffffff;
 }
 a {
-    border: 0;
+    outline: none;
 }
  #bg-img {
      position: fixed;
