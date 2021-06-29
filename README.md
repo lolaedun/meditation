@@ -118,10 +118,14 @@ I have chosen use background video over images and ensured this plays well acros
 
 I have opted for simple imagery/videoes that dont distract from the ability to see the buttons and affirmations as well as to ensure a relaxed state is quickly achieved without too much going on. Footage of nature has helped me to achieve this goal.
 
-#### Volume control
-I initally wanted to include this feature but decided against it as it took away from the simple and clean background space I was looking to create. I feel the user automatically adjusts the volume on their device when watching videos or listening to sounds so it wasn't necessary to have it displayed on screen. 
+#### Welcome modal
 
-Sound can be muted on users device if they would prefer a quiet meditation or are in a space where having the sound on will bring unwanted attention to the user.
+Here is a welcome message for the first user and beginner meditator to optimize their time on the website during meditation. I have include screenshot to guide the user in setting their meditation space.
+
+
+#### Mute Button
+
+Sound can be muted on the screen or on users device if they would prefer a quiet meditation or are in a space where having the sound on will bring unwanted attention to the user.
 
 ### Features Left to Implement
 
