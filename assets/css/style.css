@@ -23,20 +23,14 @@ a {
      min-height: 100%;
      z-index: -1;
 }
-#title{
-    font-family: 'Pacifico', cursive;
-    font-size: 1.5rem;
-    padding-top: 5%;
-}
+
 #modal{
     font-size: 2.5rem;
     color: #ffffff;
     text-align: right;
 
 }
-#modal-image{
-    width: 100%;
-}
+
 #meditationModal{
     color: black
 }
@@ -55,6 +49,9 @@ a {
      top: 27vh;
 }
 
+.modal-image{
+    width: 100%;
+}
 .modal-header{
 background-color: #dcfff9;
 }
@@ -70,7 +67,11 @@ background-color: #dcfff9;
 .close-btn{
     background-color: #f7f2fb;
 }
-
+.title{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    padding-top: 5%;
+}
  .fa, .fas {
      color: #ffffff;
 }
