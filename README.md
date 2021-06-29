@@ -346,7 +346,7 @@ To run the project locally:
 
 ### Content - Media - Inspiration
 
-I have used the following websites to gather ideas, information, background images and sounds for the overall content of my website: 
+I have used the following websites to gather ideas, information,code examples, background images and sounds for the overall content of my website. This website would not have been possible without all these amazing resources: 
 
 * [Ben Sound](www.bensound.com)
 * [Dev Ed](https://www.youtube.com/watch?v=oMBXdZzYqEk&ab_channel=DevEdDevEd)
