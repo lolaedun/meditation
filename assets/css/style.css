@@ -22,10 +22,14 @@
 
 #modal{
     font-size: 2.5rem;
-    color: white;
+    color: #ffffff;
     text-align: right;
 
 }
+#meditationModal{
+    color: black
+}
+
  #affirmation {
      position: relative;
      text-align: center;
@@ -38,8 +42,25 @@
      text-align: center;
      top: 27vh;
 }
+
+.modal-header{
+background-color: #dcfff9;
+}
+
+.modal-body{
+    background-color: #ccf3ee;
+}
+
+.modal-footer{
+    background-color: #dfe0ff;
+}
+
+.close-btn{
+    background-color: #f7f2fb;
+}
+
  .fa, .fas {
-     color: white;
+     color: #ffffff;
 }
  .navbar-brand img {
      width: 6rem;
