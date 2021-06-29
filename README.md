@@ -120,7 +120,7 @@ I have opted for simple imagery/videoes that dont distract from the ability to s
 
 #### Welcome modal
 
-Here is a welcome message for the first user and beginner meditator to optimize their time on the website during meditation. I have include screenshot to guide the user in setting their meditation space.
+There is a welcome message for the first time user and beginner meditator to optimize their time on the website during meditation. I have include screenshot to guide the user in setting their meditation space.
 
 
 #### Mute Button
