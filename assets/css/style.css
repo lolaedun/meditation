@@ -30,6 +30,9 @@
     text-align: right;
 
 }
+#modal-image{
+    width: 100%;
+}
 #meditationModal{
     color: black
 }
@@ -46,9 +49,7 @@
      text-align: center;
      top: 27vh;
 }
-#modal-image{
-    width: 100%;
-}
+
 .modal-header{
 background-color: #dcfff9;
 }
