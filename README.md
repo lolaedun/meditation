@@ -126,7 +126,6 @@ Sound can be muted on users device if they would prefer a quiet meditation or ar
 ### Features Left to Implement
 
 - child mode
-- Social share button
 - add gong sound at the end of meditation or audio fade
 
 ### Languages
@@ -143,6 +142,7 @@ This project uses the following programming languages:
 - [Am I Responsive](http://ami.responsivedesign.is/) to create the website mockups
 - [Canva](https://www.canva.com/) to design mood board, graphics and video for the website.
 - [ColourLovers](https://www.colourlovers.com/palettes) to find inspiration for my colour palette.
+- [Add this]() social share buttons
 
 ### Libraries
 
@@ -239,6 +239,27 @@ All working and displaying as expected.
 
 * **Verdict** 
 Site is responsive and working as expected.
+
+#### User story:
+**As a user, I would like to be share my meditation or affirmation with a friend**
+
+* **Plan**  
+To add social share buttons to footer of page
+
+* **Implementation**  
+I used the "add this" tool kit to create a simple and customized share button that expands on hover to keep the site looking clean and minimalistic.
+
+![Social Share](wireframes/screenshots/social-share.png)
+
+* **Test**
+
+Tested on mobile and various devices.
+
+* **Result**
+All working and displaying as expected.
+
+* **Verdict** 
+Share button is responsive and working as expected.
 
 ## **Validation Reports**
 
