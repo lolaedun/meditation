@@ -19,6 +19,13 @@
      min-height: 100%;
      z-index: -1;
 }
+
+#modal{
+    font-size: 2.5rem;
+    color: white;
+    text-align: right;
+
+}
  #affirmation {
      position: relative;
      text-align: center;
