@@ -12,7 +12,7 @@ const muteRef = document.querySelector("#soundOn");
 /**
  * Tracking affirmation pages
  */
-let songIndex = 6;
+let songIndex = 8;
 const songs = [{
         tune: 'Yuval-Ron-Fire',
         backgroundImageName: 'meditation-video-10',
@@ -38,11 +38,7 @@ const songs = [{
         tune: 'om',
         backgroundImageName: 'meditation-video4',
         affirmation: 'EVERYTHING WILL BE OK',
-    }, {
-        tune: 'HeartWave',
-        backgroundImageName: 'meditation-video3',
-        affirmation: 'I DESERVE TO BE HAPPY',
-    }, {
+    },  {
         tune: 'Abundance',
         backgroundImageName: 'meditation-video5',
         affirmation: 'I ALWAYS FIND HOPE',
@@ -50,6 +46,10 @@ const songs = [{
         tune: 'Chill-Pill',
         backgroundImageName: 'meditation-video8',
         affirmation: 'I CHOOSE TO FEEL PEACEFUL',
+    }, {
+        tune: 'HeartWave',
+        backgroundImageName: 'meditation-video3',
+        affirmation: 'I DESERVE TO BE HAPPY',
     },
 ];
 
