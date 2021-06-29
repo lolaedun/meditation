@@ -30,7 +30,8 @@ a {
 #modal {
 	font-size: 2.5rem;
 	color: #ffffff;
-	text-align: right;
+    text-align: right;
+    padding-bottom: 1rem;
 }
 
 #meditationModal {
