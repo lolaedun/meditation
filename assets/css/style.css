@@ -13,6 +13,9 @@
      border: 0;
      color: #ffffff;
 }
+a {
+    border: 0;
+}
  #bg-img {
      position: fixed;
      min-width: 100%;

@@ -306,6 +306,13 @@ change min width and height of video (#bg-img) to 100% instead of 100vh
 * **Verdict**    
 Video displays full width on desktop screensize.
 
+### **Blue outline box on question icon**
+* **Bug**  
+There is a blue outline box on mobile view after clicking on the question icon modal.
+
+* **Fix** 
+I set the a tag colour to transparent
+
 ## **Deployment**
 
 This project was deployed via GitHub by executing the following steps.
